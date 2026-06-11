@@ -17,3 +17,6 @@ verification/tm-tierlist.json
 
 # research-agent scratch downloads (third-party web content)
 verification/scratch/
+
+# store packages (rebuildable)
+store/
