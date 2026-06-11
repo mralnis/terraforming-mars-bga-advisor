@@ -1,0 +1,122 @@
+/* BGA Terraforming Mars Advisor - Overlay Styles */
+/* All classes prefixed with tm-advisor- to avoid BGA collisions */
+
+/* ===== Badge ===== */
+.tm-advisor-badge {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 28px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #fff;
+  text-align: center;
+  z-index: 100;
+  pointer-events: auto;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  user-select: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.tm-advisor-badge:hover {
+  transform: translateX(-50%) scale(1.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Tier colors */
+.tm-advisor-badge.tier-s {
+  background: linear-gradient(135deg, #d4a017, #f0c040);
+  color: #1a1a1a;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.tm-advisor-badge.tier-a {
+  background: linear-gradient(135deg, #2e7d32, #43a047);
+}
+.tm-advisor-badge.tier-b {
+  background: linear-gradient(135deg, #1565c0, #1e88e5);
+}
+.tm-advisor-badge.tier-c {
+  background: linear-gradient(135deg, #f9a825, #fdd835);
+  color: #333;
+}
+.tm-advisor-badge.tier-d {
+  background: linear-gradient(135deg, #e65100, #ef6c00);
+}
+.tm-advisor-badge.tier-f {
+  background: linear-gradient(135deg, #b71c1c, #d32f2f);
+}
+
+/* ===== Dim overlay for low-tier cards ===== */
+.tm-advisor-dim {
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+.tm-advisor-dim:hover {
+  opacity: 1;
+}
+
+/* ===== Tooltip ===== */
+.tm-advisor-tooltip {
+  position: fixed;
+  z-index: 10000;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 12px 16px;
+  max-width: 320px;
+  min-width: 200px;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.tm-advisor-tooltip-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #333;
+}
+
+.tm-advisor-tooltip-name {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+.tm-advisor-tooltip-scores {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.tm-advisor-tooltip-mods {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tm-advisor-mod-row {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.tm-advisor-mod-row span:first-child {
+  min-width: 32px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}

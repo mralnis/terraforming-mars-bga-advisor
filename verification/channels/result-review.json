@@ -1,0 +1,32 @@
+[
+ {
+  "name": "Flooding",
+  "field": "timing_bias",
+  "to": 12,
+  "why": "Spec explicitly anchors Flooding in +10..+15 finisher band"
+ },
+ {
+  "name": "Beam From A Thorium Asteroid",
+  "field": "tag_synergy_weights",
+  "to": {"jovian": 1},
+  "why": "Single Jovian requirement; match Jovian Lanterns weight 1"
+ },
+ {
+  "name": "Energy Saving",
+  "field": "tag_synergy_weights",
+  "to": {"city": 1},
+  "why": "Same per-city scaling as Zeppelins/Greenhouses; align to 1"
+ },
+ {
+  "name": "Martian Zoo",
+  "field": "tag_synergy_weights",
+  "to": {},
+  "why": "Animals come from future Earth plays, not existing tags"
+ },
+ {
+  "name": "Molecular Printing",
+  "field": "tag_synergy_weights",
+  "to": {"city": 1},
+  "why": "Per-city scorer; peers got city weight, this missed it"
+ }
+]

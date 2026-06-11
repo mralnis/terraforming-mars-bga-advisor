@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 280px;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #1a1a2e;
+  color: #e0e0e0;
+}
+
+.popup-container {
+  padding: 16px;
+}
+
+.popup-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.popup-subtitle {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+.setting-group {
+  margin-bottom: 12px;
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 6px 0;
+}
+
+.toggle-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #2e7d32;
+  cursor: pointer;
+}
+
+.toggle-text {
+  font-size: 14px;
+}
+
+.select-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.select-label span {
+  font-size: 14px;
+}
+
+.select-label select {
+  background: #2a2a3e;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.popup-footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #333;
+  text-align: center;
+}
+
+.version {
+  font-size: 11px;
+  color: #666;
+}

@@ -1,0 +1,657 @@
+[
+ {
+  "name": "Interplanetary Cinematics",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 20 steel and 30 M€.",
+  "score": 74,
+  "when_to_pick": "Когда старт уже даёт либо 2+ building-карт для steel tempo, либо event shell с Media Group/Optimal Aerobraking и реальным планом на space events. Без steel-targets и без event payoffs — слабая.",
+  "reasoning": "Высокий ceiling (70 MC effective), но ужасный floor (30 MC без building-карт). По COTD: benbever — великолепен с steel-dump, плох без. При этом event shell с Media Group/Optimal Aerobraking тоже реаль"
+ },
+ {
+  "name": "Inventrix",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "As your first action in the game, draw 3 cards. Start with 45 M€.",
+  "score": 67,
+  "when_to_pick": "Когда старт уже содержит 2+ payoff-карты под science, requirements или rush. Просто ради Science тега и 3 карт - недостаточно.",
+  "reasoning": "Per COTD: 'interesting idea but in practice usually not very good'. Floor по кэшу все еще ниже среднего, so это не generic A-tier corp. Но SHOTW регулярно показывает opener-shells, где extra draw + ±2"
+ },
+ {
+  "name": "Mining Guild",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Building",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 30 M€, 5 steel and 1 steel production.",
+  "score": 60,
+  "when_to_pick": "На Tharsis с ocean-прелюдиями и steel-dump картами.",
+  "reasoning": "Объективно слабая корпорация. 30 MC — мало. Steel overflow: производишь больше steel чем тратишь. По COTD: 'low tier', 'expansions weakened it'. Лучше на Tharsis (Builder + Miner)."
+ },
+ {
+  "name": "PhoboLog",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 10 titanium and 23 M€.",
+  "score": 68,
+  "when_to_pick": "Only with 2+ real titanium payoffs or with Optimal Aerobraking plus big space event. If the hand is just 'some space cards' and no tempo, skip.",
+  "reasoning": "Одна из лучших корпораций в игре по ceiling, но SHOTW сильно подтверждает hand dependence. +1 ti value = 4 MC/ti, 10 titanium на старте = сильный burst только если opener уже содержит big space payoff"
+ },
+ {
+  "name": "Tharsis Republic",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 40 M€. As your first action in the game, place a city tile.",
+  "score": 68,
+  "when_to_pick": "Сильный generic pick. Особенно на Tharsis. С city-картами и production strategy.",
+  "reasoning": "Переоценена. 40 MC start — серьёзный дефицит. Free city gen 1 полезна, но +1 MC prod per city слабее чем кажется: в 3P/WGT с полными допами городов мало, city стратегия уступает engine building. На Th"
+ },
+ {
+  "name": "Thorgate",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Power"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 1 energy production and 48 M€.",
+  "score": 64,
+  "when_to_pick": "Only when the start already promises early trade, energy thresholds, or multiple power payoffs. Otherwise one of the weaker corp options.",
+  "reasoning": "Energy-discount корпорация с более узким use case, чем кажется. SHOTW часто отказывается от нее, если старт уже не обещает Colonies trade, AI Central or Mass Converter thresholds, or multiple power pa"
+ },
+ {
+  "name": "United Nations Mars Initiative",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 40 M€.",
+  "score": 42,
+  "when_to_pick": "Почти никогда. Только с очень эффективными TR-raising картами.",
+  "reasoning": "По COTD: Krazyguy75 — 'TR is an awful source of VP and MC production'. shai_aus — 'not good'. Нужно уже поднять TR чтобы использовать — double spending. 40 MC start мало."
+ },
+ {
+  "name": "Acquired Company",
+  "type": "automated",
+  "cost": 10,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 3 steps.",
+  "score": 66,
+  "when_to_pick": "Gen 1-2 with Earth tag synergies or when Banker award is contested. Skip after gen 3 unless Earth tags matter.",
+  "reasoning": "Solid early-game economy card with a valuable Earth tag. At 4.33 MC per MC-prod, it is above average efficiency. The Earth tag adds significant synergy value with Point Luna, Teractor, Earth Office, C"
+ },
+ {
+  "name": "Advanced Alloys",
+  "type": "active",
+  "cost": 9,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "titanium item symbol symbol megacredits item Effect: Each titanium you have is worth 1 M€ extra. effect steel item symbol symbol megacredits item Effect: Each steel you have is worth 1 M€ extra. effect root",
+  "score": 78,
+  "when_to_pick": "Gen 1-2 with IC, Phobolog, or heavy metal preludes. Skip if you have less than 3 metal-prod or few Building/Space targets.",
+  "reasoning": "Situational card that is good with heavy metal production (IC, Phobolog, Supply Drop) but mediocre otherwise. As COTD commenters note, it is overrated by new players. Many games you do not produce eno"
+ },
+ {
+  "name": "AI Central",
+  "type": "active",
+  "cost": 21,
+  "tags": [
+   "Science",
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": "3 Science tags",
+  "description": "Requires 3 science tags to play. Decrease your energy production 1 step. left",
+  "score": 82,
+  "when_to_pick": "When you already have 2+ Science tags and energy production, and expect a longer game. Counter-draft to deny engine players.",
+  "reasoning": "One of the strongest card-draw engines in the game. 2 free cards per gen is enormous value for engine players. However, as COTD commenters note, it is somewhat overrated -- it needs 3 Science tags, en"
+ },
+ {
+  "name": "Anti-Gravity Technology",
+  "type": "active",
+  "cost": 14,
+  "tags": [
+   "Science"
+  ],
+  "vp": "3",
+  "requirements": "7 Science tags",
+  "description": "Requires 7 science tags.",
+  "score": 80,
+  "when_to_pick": "Keep from the opener only if your start already has a credible science path and a slower engine shell. In rush starts or 2P plant races it is often dead money; do not auto-keep it just because the car",
+  "reasoning": "Objectively one of the best cards if you can play it. 3 VP for 17 MC is already strong, and the -2 MC discount is game-changing for engine players. The 7 Science tag requirement is the main barrier --"
+ },
+ {
+  "name": "Asteroid Mining Consortium",
+  "type": "automated",
+  "cost": 13,
+  "tags": [
+   "Jovian"
+  ],
+  "vp": "1",
+  "requirements": "Production",
+  "description": "Requires that you have titanium production. Decrease any titanium production 1 step and increase your own 1 step.",
+  "score": 71,
+  "when_to_pick": "Gen 1-2 when you have ti-prod and can target a key opponent. Late game for Jovian tag. Counter-draft to protect your ti-prod.",
+  "reasoning": "Strong take-that + Jovian tag + VP за 6 MC. Per COTD: 'one of the best cards if you want to make enemies'. Опытные игроки отмечают: stall titanium mine gen 1 если видишь оппонента с ti-prod, чтобы не "
+ },
+ {
+  "name": "Bribed Committee",
+  "type": "event",
+  "cost": 7,
+  "tags": [
+   "Earth"
+  ],
+  "vp": "-2",
+  "requirements": null,
+  "description": "Raise your TR 2 steps.",
+  "score": 66,
+  "when_to_pick": "Gen 1-3 when you need immediate income boost. The earlier, the better. Skip after gen 4.",
+  "reasoning": "Per COTD: 'Mum can we have Sponsors? We have Sponsors at home.' — downgrade от Sponsors. 2 TR за 10 MC минус 2 VP. Опытные игроки: 'think of it as 2 MC-prod, pays back soon'. Earth tag + event synergi"
+ },
+ {
+  "name": "Building Industries",
+  "type": "automated",
+  "cost": 6,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your energy production 1 step and increase your steel production 2 steps.",
+  "score": 62,
+  "when_to_pick": "When you have energy-prod to spare and want steel for building cards. Gen 1-3 with energy prelude.",
+  "reasoning": "1 energy-prod -> 2 steel-prod for 9 MC base. Per COTD: 'deceptively expensive — true cost 9 + 7 (energy) = 16 MC for 2 steel-prod.' Fair only if played early with existing energy. Energy prod too valu"
+ },
+ {
+  "name": "Business Contacts",
+  "type": "event",
+  "cost": 7,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "text item Look at the top 4 cards from the deck. Take 2 of them into hand and discard the other 2. root",
+  "score": 69,
+  "when_to_pick": "Gen 1-4 when searching for specific engine pieces. Good with Earth tag synergies and event cashbacks.",
+  "reasoning": "Look at 4, keep 2 за 10 MC. Per COTD: 'excellent card, you'll most likely find something useful'. Опытные игроки отмечают: не всегда играть — 10-2=8 MC effective cost может hurt если tight on money. Л"
+ },
+ {
+  "name": "Business Network",
+  "type": "active",
+  "cost": 4,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your M€ production 1 step.",
+  "score": 68,
+  "when_to_pick": "Gen 1-2 with Earth tag synergy and good economy. Skip if MC-prod is tight.",
+  "reasoning": "Cheap Earth tag with ongoing card selection. Per COTD community, 'be careful not to play too early — get production first.' The -1 MC-prod hurts early but card draw is rarely bad once you have economy"
+ },
+ {
+  "name": "Callisto Penal Mines",
+  "type": "automated",
+  "cost": 24,
+  "tags": [
+   "Jovian",
+   "Space"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "Increase your M€ production 3 steps.",
+  "score": 46,
+  "when_to_pick": "Only when playing Jovian strategy with multipliers or as a late-game ti dump for the Jovian tag.",
+  "reasoning": "As COTD unanimously agrees, way too expensive for what it does. MC-prod and VP have anti-synergy (one is early-game, other is late-game). 27 MC for 3 MC-prod in gen 1 barely returns the investment by "
+ },
+ {
+  "name": "Caretaker Contract",
+  "type": "active",
+  "cost": 3,
+  "tags": [],
+  "vp": null,
+  "requirements": "0°C",
+  "description": "Requires 0° C or warmer.",
+  "score": 35,
+  "when_to_pick": "When you have 8+ heat production per gen and 0C is close. Essential for heat strategies. Low draft cost.",
+  "reasoning": "Per COTD: 'situational but great if leaning into heat production'. 8 heat → 1 TR = 4 MC за 7 MC. Опытные игроки: 'best case 2-3 TR, only works well when heat is first parameter to max'. 0C requirement"
+ },
+ {
+  "name": "Cartel",
+  "type": "automated",
+  "cost": 8,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 1 step for each Earth tag you have, including this.",
+  "score": 69,
+  "when_to_pick": "When you have 2+ other Earth tags. Excellent with Point Luna + Earth Office. Skip with only 1 Earth tag.",
+  "reasoning": "Scaling MC-prod based on Earth tags. With 3+ Earth tags it is good value (5 MC or less per MC-prod). The Earth tag itself is valuable. With Point Luna, Teractor, Earth Office the card gets excellent. "
+ },
+ {
+  "name": "CEO's Favorite Project",
+  "type": "event",
+  "cost": 1,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "text item Add 1 resource to a card with at least 1 resource on it root",
+  "score": 69,
+  "when_to_pick": "When you have a 1-VP animal or Physics Complex with resources. Good for Legend milestone. Low draft priority.",
+  "reasoning": "Per COTD: 'no-brainer with Physics Complex (2 VP), pretty good with high-value animals'. 4 MC за 1 VP (animal) или 2 VP (science resource) — excellent rate. Опытные игроки: не работает для Search For "
+ },
+ {
+  "name": "Commercial District",
+  "type": "automated",
+  "cost": 16,
+  "tags": [
+   "Building"
+  ],
+  "vp": "special",
+  "requirements": null,
+  "description": "Place this tile. Decrease your energy production 1 step and increase your M€ production 4 steps.",
+  "score": 56,
+  "when_to_pick": "Late game steel dump with excess energy, or to swing Banker/Landlord awards. Skip as an economy play.",
+  "reasoning": "Too expensive for most situations. Per COTD community: 'expensive but fun to play, average in practical value'. Опытные игроки отмечают: VP trap — лучше использовать как placement disruption. Tile мож"
+ },
+ {
+  "name": "Corporate Stronghold",
+  "type": "automated",
+  "cost": 11,
+  "tags": [
+   "City",
+   "Building"
+  ],
+  "vp": "-2",
+  "requirements": null,
+  "description": "Decrease your energy production 1 step and increase your M€ production 3 steps. Place a city tile.",
+  "score": 67,
+  "when_to_pick": "Gen 1-2 as cheapest city + MC-prod dump. Steel-payable priority. Accept -2 VP trade for early economy. Skip gen 4+ or if VP matters more than economy.",
+  "reasoning": "Cheapest city card in the game with decent 3 MC-prod. City+Building tags provide steel payability. The -2 VP is the main penalty, making it a purely economic play. In 3P/WGT the city tile adjacency to"
+ },
+ {
+  "name": "Development Center",
+  "type": "active",
+  "cost": 11,
+  "tags": [
+   "Science",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "energy item symbol -> cards item Action: Spend 1 energy to draw a card. effect root",
+  "score": 67,
+  "when_to_pick": "Gen 1-3 when you have or can cheaply get energy production. Core card draw for engine strategies.",
+  "reasoning": "Good card draw engine but requires energy production investment. Per icehawk84, not nearly as strong as AI Central but much easier to deploy. The energy requirement can be surprisingly difficult per s"
+ },
+ {
+  "name": "Earth Catapult",
+  "type": "active",
+  "cost": 23,
+  "tags": [
+   "Earth"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "symbol symbol megacredits item Effect: When you play a card, you pay 2 M€ less for it. effect root",
+  "score": 88,
+  "when_to_pick": "Almost always in gen 1-4. Even gen 5 can be worth it with strong card draw. Top 3 draft priority.",
+  "reasoning": "Strong contender for best project card in the game. Per icehawk84, if gotten early-to-mid game, you stop whatever you're doing to play it. The 2 MC discount on every card compounds massively with card"
+ },
+ {
+  "name": "Earth Office",
+  "type": "active",
+  "cost": 1,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "tag item earth symbol megacredits item Effect: When you play an Earth tag, you pay 3 M€ less for it. effect root",
+  "score": 82,
+  "when_to_pick": "Almost always pick early. Even as speculation on future Earth tags, the cost is trivially low.",
+  "reasoning": "Underpriced card that easily pays for itself. Per icehawk84, it's ridiculously strong for Point Luna and Teractor. Per FieldMouse007, it pays for itself in 2 Earth tags and everything after is pure pr"
+ },
+ {
+  "name": "Electro Catapult",
+  "type": "active",
+  "cost": 17,
+  "tags": [
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": "Max 8% oxygen",
+  "description": "Oxygen must be 8% or less. Decrease your energy production 1 step. left",
+  "score": 73,
+  "when_to_pick": "Gen 1-3 when O2 is below 8% and you have energy production. Best with steel/plant production engine. Building tag makes it steel-payable.",
+  "reasoning": "Action: spend plant or steel → gain 7 MC. Net ~5 MC/action. Building tag = steel payable. 1 VP. BonelessDota: cheap action cards underrated — stall value + recurring income. 8% O2 max requirement = mu"
+ },
+ {
+  "name": "Energy Tapping",
+  "type": "automated",
+  "cost": 3,
+  "tags": [
+   "Power"
+  ],
+  "vp": "-1",
+  "requirements": null,
+  "description": "Decrease any energy production 1 step and increase your own 1 step.",
+  "score": 63,
+  "when_to_pick": "When you need a cheap Power tag and the energy steal target has excess energy they cannot use. Skip if target is using all their energy -- helps third player too much.",
+  "reasoning": "Cheap Power tag with take-that energy steal. Per COTD community, significantly better with Colonies — hitting someone's energy when they need 3 energy to trade is devastating. Almost always played gen"
+ },
+ {
+  "name": "Fuel Factory",
+  "type": "automated",
+  "cost": 6,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your energy production 1 step and increase your titanium and your M€ production 1 step each.",
+  "score": 62,
+  "when_to_pick": "Gen 1-2 with spare energy production from preludes/corp. Skip if you'd need to SP Power Plant first.",
+  "reasoning": "Decent value if you have spare energy production, but a trap if you need to buy energy. Per icehawk84, top 10 overrated card — people overplay it mid-game. Per shai_aus, it's not as cheap as it appear"
+ },
+ {
+  "name": "Gene Repair",
+  "type": "automated",
+  "cost": 12,
+  "tags": [
+   "Science"
+  ],
+  "vp": "2",
+  "requirements": "3 Science tags",
+  "description": "Requires 3 science tags. Increase your M€ production 2 steps.",
+  "score": 71,
+  "when_to_pick": "Gen 3-6 with 3+ science tags. Good bundle of economy and VP for science players.",
+  "reasoning": "Efficient production + VP bundle for science engines. Per the game's formula, 3 Science tag discount makes this effectively cheaper. At 15 MC for 2 MC-prod + 2 VP + Science tag, it's solid value. The "
+ },
+ {
+  "name": "Great Escarpment Consortium",
+  "type": "automated",
+  "cost": 6,
+  "tags": [],
+  "vp": null,
+  "requirements": "Production",
+  "description": "Requires that you have steel production. Decrease any steel production 1 step and increase your own 1 step.",
+  "score": 55,
+  "when_to_pick": "Rarely in 3P. Only if you desperately need steel production AND one specific opponent has excess. Better in 2P.",
+  "reasoning": "6 MC to steal 1 steel-prod. Take-that in 3P = helps 3rd player. But only -1 steel (not MC) = less punishing than Hackers. 6 MC for 1 steel-prod = 7.6 MC/steel-prod over 5 gens. Marginal but cheap. Req"
+ },
+ {
+  "name": "Hackers",
+  "type": "automated",
+  "cost": 3,
+  "tags": [],
+  "vp": "-1",
+  "requirements": null,
+  "description": "Decrease your energy production 1 step and any M€ production 2 steps. Increase your M€ production 2 steps.",
+  "score": 48,
+  "when_to_pick": "Almost never. Only in desperation when energy is free and the MC-prod steal targets the clear leader. Even then the -1 VP and no tags make it questionable.",
+  "reasoning": "On paper a 4 MC-prod swing for 13 MC seems decent, but the triple penalty (no tags, -1 VP, take-that in 3P) destroys the value. The energy-prod cost is painful. No tags means zero synergy. The -1 VP i"
+ },
+ {
+  "name": "Hired Raiders",
+  "type": "event",
+  "cost": 1,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Steal up to 2 steel, or 3 M€ from any player.",
+  "score": 58,
+  "when_to_pick": "When you have event rebates or need to disrupt a specific opponent's steel plans. Don't draft early without synergies.",
+  "reasoning": "Per COTD: 'good in 2p, less good with more players'. Breaks even while hurting opponent. Опытные игроки: 'attack cards good in 3P too — matter of identifying closest competition'. Event synergies доба"
+ },
+ {
+  "name": "Indentured Workers",
+  "type": "event",
+  "cost": 0,
+  "tags": [],
+  "vp": "-1",
+  "requirements": null,
+  "description": "The next card you play this generation costs 8 M€ less.",
+  "score": 78,
+  "when_to_pick": "Almost always keep in opening hand. High draft priority for enabling expensive early plays. Even better as a free draw.",
+  "reasoning": "Excellent tempo card. Per COTD community, 'Indentured Workers are great! In Terraforming Mars.' Effective net gain of 5 MC for -1 VP, but real value is much higher from tempo — playing Earth Catapult "
+ },
+ {
+  "name": "Industrial Center",
+  "type": "active",
+  "cost": 4,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place this tile adjacent to a city tile.",
+  "score": 63,
+  "when_to_pick": "When good placement bonuses are available near cities, or need Building tag for milestone. Don't count on the action.",
+  "reasoning": "Per COTD: 'foremost use is teleporting/blocking opponents'. Cheap tile placement с ocean discounts. Опытные игроки: steel prod action почти никогда не основная ценность, но placement disruption может "
+ },
+ {
+  "name": "Interstellar Colony Ship",
+  "type": "event",
+  "cost": 24,
+  "tags": [
+   "Earth",
+   "Space"
+  ],
+  "vp": "4",
+  "requirements": "5 Science tags",
+  "description": "Requires that you have 5 science tags.",
+  "score": 73,
+  "when_to_pick": "When playing science engine and have 4+ Science tags. Hold for last gen titanium dump with discounts. Don't play at full price.",
+  "reasoning": "Per COTD: 'the last turn titanium dump' и 'payoff for all those discounts and rebates'. Raw = 24+3 MC за 4 VP = overpriced. Но science engine players имеют Earth Office, space discounts, rebates — eff"
+ },
+ {
+  "name": "Invention Contest",
+  "type": "event",
+  "cost": 2,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "text item Look at the top 3 cards from the deck. Take 1 of them into hand and discard the other two root",
+  "score": 70,
+  "when_to_pick": "When you need science tags or card filtering. Better with event rebates. Not high draft priority but solid filler.",
+  "reasoning": "Per COTD: 'great little card — cheap, great with discounts/rebates, choice of what to draw'. Curated draw (look 3 pick 1) лучше random. Science tag ценный. Опытные игроки: с Mars University combo (2 d"
+ },
+ {
+  "name": "Inventors' Guild",
+  "type": "active",
+  "cost": 9,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "symbol symbol -> symbol effect text item Action: Look at the top card and either buy it or discard it root",
+  "score": 60,
+  "when_to_pick": "Gen 2-3 when building science engine and game looks to go 9+ gens. Pass in short 8-gen games unless you need the Science tag.",
+  "reasoning": "Continuous card draw is powerful in TM but this implementation is expensive and slow. At 12 MC upfront plus 3 MC per card kept, the per-card cost is high. In 8-gen games with WGT, you get maybe 4-5 us"
+ },
+ {
+  "name": "Investment Loan",
+  "type": "event",
+  "cost": 3,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your M€ production 1 step. Gain 10 M€.",
+  "score": 64,
+  "when_to_pick": "When you need 10 MC now to play a key card a generation earlier. Better mid-late game when -1 MC-prod matters less. Great with event rebates.",
+  "reasoning": "Strong tempo card. Per COTD community, 'gets passed far too often' — experienced players consider it near-autopick. The -1 MC-prod is a real cost but the 10 MC enables playing a good economy card a tu"
+ },
+ {
+  "name": "Io Mining Industries",
+  "type": "automated",
+  "cost": 41,
+  "tags": [
+   "Jovian",
+   "Space"
+  ],
+  "vp": "1/Jovian tag",
+  "requirements": null,
+  "description": "Increase your titanium production 2 steps and your M€ production 2 steps.",
+  "score": 69,
+  "when_to_pick": "Gen 1 with Phobolog or heavy titanium prelude support. Otherwise too expensive and too slow for 8-gen games.",
+  "reasoning": "Per COTD: 'godly amount of production' но 'so damn expensive!' — 44 MC = almost full gen income. Опытные игроки: с Phobolog combo отличный, иначе нужны preludes/discounts для gen 1 play. Community отм"
+ },
+ {
+  "name": "Lagrange Observatory",
+  "type": "automated",
+  "cost": 9,
+  "tags": [
+   "Science",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Draw 1 card.",
+  "score": 70,
+  "when_to_pick": "When building science engine or need a VP + science tag. Good titanium dump anytime. Solid 3rd-4th pick in draft.",
+  "reasoning": "Per COTD: 'love this card for design — early want science tag, mid want card draw, late want VP'. Опытные игроки: отличный ti dump за 1 VP late game. С space discounts и science triggers ценность раст"
+ },
+ {
+  "name": "Land Claim",
+  "type": "event",
+  "cost": 1,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "text item Place your marker on a non-reserved area. Only you may place a tile there. root",
+  "score": 42,
+  "when_to_pick": "Only as a free draw or when a specific board position is critical. Not worth drafting.",
+  "reasoning": "Pays 4 MC to reserve a spot rather than just taking it. Per COTD community, nearly unanimous that it's not worth drafting. Only play if drawn for free. Blocking value exists but in 3P opponents can us"
+ },
+ {
+  "name": "Lightning Harvest",
+  "type": "automated",
+  "cost": 8,
+  "tags": [
+   "Power"
+  ],
+  "vp": "1",
+  "requirements": "3 Science tags",
+  "description": "Requires 3 science tags. Increase your energy production and your M€ production one step each.",
+  "score": 64,
+  "when_to_pick": "When you have 3+ Science tags and need energy production. Good incidental value, not a strategy-defining pick.",
+  "reasoning": "Good value at 11 MC for ~18 MC with requirements met. Per COTD community, 'used to think it's good, now think it's usually not good enough.' The 3 Science tag requirement is heavy for what's essential"
+ },
+ {
+  "name": "Mars University",
+  "type": "active",
+  "cost": 8,
+  "tags": [
+   "Science",
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "tag item science symbol symbol cards item symbol nbsp symbol cards item Effect: When you play a science tag, including this, you may discard a card from hand to draw a card. effect root",
+  "score": 88,
+  "when_to_pick": "Always. First-pick caliber in most drafts. Play as early as possible to maximize cycling value.",
+  "reasoning": "One of the best cards in the game. Cheap, no requirements, incredible tags (Science+Building), 1 VP, and the card cycling effect is a true engine enabler. COTD experts nearly unanimously rate it top 5"
+ },
+ {
+  "name": "Mass Converter",
+  "type": "active",
+  "cost": 8,
+  "tags": [
+   "Science",
+   "Power"
+  ],
+  "vp": null,
+  "requirements": "5 Science tags",
+  "description": "Requires 5 science tags. Increase your energy production 6 steps.",
+  "score": 75,
+  "when_to_pick": "When you already have 3+ science tags and plan to play more. Keep in hand speculatively if drawn early with science path.",
+  "reasoning": "Absurdly efficient IF you can meet the 5 Science tag requirement. The cheapest energy source in the game by far. Krazyguy75 says it's undervalued by 24 cost. But the requirement makes it unplayable in"
+ },
+ {
+  "name": "Media Archives",
+  "type": "automated",
+  "cost": 8,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 1 M€ for each event EVER PLAYED by all players.",
+  "score": 61,
+  "when_to_pick": "Mid-to-late game when ~15+ events have been played. Don't speculate on it early unless cash is abundant.",
+  "reasoning": "Late-game money bomb that's hard to time well. In 3P, events accumulate reasonably but you can't play this early (not enough events). icehawk84 says it's almost always strong late in 3P+. The Earth ta"
+ },
+ {
+  "name": "Media Group",
+  "type": "active",
+  "cost": 6,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "tag item event symbol megacredits item Effect: After you play an event card, you gain 3 M€. effect root",
+  "score": 76,
+  "when_to_pick": "Early game with events in hand. Even mid-game it's good if you expect 3+ more events. High draft priority.",
+  "reasoning": "Excellent rebate card. Events are generally strong cards you want to play anyway, so this adds pure value. Breaks even after just 3 events, which is very achievable. shai_aus calls it great, especiall"
+ },
+ {
+  "name": "Medical Lab",
+  "type": "automated",
+  "cost": 13,
+  "tags": [
+   "Science",
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Increase your M€ production 1 step for every 2 building tags you have, including this.",
+  "score": 69,
+  "when_to_pick": "When you have 4+ building tags and can pay with steel. Good late-game steel dump for VP + science tag.",
+  "reasoning": "Situationally good but requires many building tags to be efficient. In all-expansion play, building tag density is lower than base game. Krazyguy75 notes expansions hurt this card. The Science+Buildin"
+ }
+]

@@ -1,0 +1,149 @@
+﻿{
+    "reviewed":  12,
+    "verdicts":  [
+                     {
+                         "card":  "Immigrant City",
+                         "direction":  "lower",
+                         "recommendedScore":  58,
+                         "confidence":  "high",
+                         "rationale":  "Expert consensus converges on mid-tier: Erik Twice explicitly lists it as commonly overrated (\"the payoff, not the enabler\" of a city strategy), and the 2023 COTD thread\u0027s top comments rate it B/B+ ā€” a cheap city best played late, that \"beginners overvalue.\" Its trigger scales with player count, so the positive 2021 COTD takes (early Tharsis ground-game in multiplayer) translate poorly to 2p BGA Arena where fewer cities are placed. The near-neutral elo change (-0.08) argues against dropping it below average, so tm-tierlist\u0027s 58 is well-calibrated: a solid cheap city with situational upside, not a 72 strong-pick.",
+                         "sources":  [
+                                         "https://eriktwice.com/en/2020/10/23/terraforming-mars-six-commonly-overrated-cards/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/10xr1lw/cotd_immigrant_city_9_feb_2023/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/n1qnux/cotd_immigrant_city_30_apr_2021/"
+                                     ]
+                     },
+                     {
+                         "card":  "Advanced Alloys",
+                         "direction":  "raise",
+                         "recommendedScore":  78,
+                         "confidence":  "high",
+                         "rationale":  "Expert consensus puts Advanced Alloys well above 64: Erik Twice ranks it #7 best card in the game, an RPGGeek community list has it A+, and the Jan 2025 COTD thread includes multiple \"best card in the game\" claims, a group ban, and repeated advice to hate-draft it ā€” strong fit for a 2p draft meta where Prelude metal production makes it reliably live. However, 86 overstates it: COTD dissenters (needs ~12-13 metals spent to break even, dead without steel/ti production, \"mindlessly overbought\" late, one explicitly prefers alternatives in 2p Prelude) show it is a timing-dependent payoff card whose when-played win rate is confounded by already-metal-rich builder engines. 78 captures \"strong early pick, mediocre late buy.\"",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/1hy15uk/ (COTD Advanced Alloys, 10 Jan 2025; comments retrieved via https://api.pullpush.io/reddit/search/comment/?link_id=1hy15uk)",
+                                         "https://eriktwice.com/en/2019/01/26/terraforming-mars-best-cards-game-2/",
+                                         "https://rpggeek.com/thread/2508833/base-game-card-tier-list-attempt (A+ tier placement via search snippet; full page fetch blocked)"
+                                     ]
+                     },
+                     {
+                         "card":  "Ice Cap Melting",
+                         "direction":  "keep",
+                         "recommendedScore":  35,
+                         "confidence":  "high",
+                         "rationale":  "Three separate COTD threads (2020/2021/2024) and an F-tier BGG list agree it\u0027s dead in ~90-95% of games because oceans finish before temp reaches +2Ā°C; the tfmstats 65% WR is the textbook finisher confound since every recorded play is a self-selected best-case window. The 2-player BGA meta (Helion heat-rush, slower ocean depletion, occasional Io/Callisto Colonies) widens its window somewhat versus 4p, and it\u0027s near-free TR when live, which keeps it above bottom-tier. 35 correctly encodes \"usually skip, but grab late when temp will visibly outpace oceans.\"",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/1d7tgqg/cotd_ice_cap_melting_4_jun_2024/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/rcek6c/cotd_ice_cap_melting_9_dec_2021/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/hzy7r1/cotd_ice_cap_melting_29_jul_2020/"
+                                     ]
+                     },
+                     {
+                         "card":  "Special Design",
+                         "direction":  "lower",
+                         "recommendedScore":  32,
+                         "confidence":  "high",
+                         "rationale":  "Three r/TerraformingMarsGame COTD threads and Erik Twice\u0027s worst-cards article unanimously rate Special Design as one of the least-played, most situational cards ā€” \"comfortably one of the worst in the game\" ā€” playable only when it enables a specific requirement-gated bomb (e.g., gen-1 Kelp Farming) or feeds a science/event-tag engine. The tfmstats 60.6% played-win-rate is heavily selection-confounded for a pure enabler: it is only ever played in exactly those favorable scenarios, so it reflects the cards behind it rather than draft value, and the modest +1.36 elo change corroborates marginality. A score around 32 captures \"usually skip, but cheap and occasionally combo-relevant\" in 2p Arena draft.",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/y7yk10/cotd_special_design_19_oct_2022/ (via pullpush.io API)",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/ogsgnv/cotd_special_design_9_jul_2021/ (via pullpush.io API)",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/fx3xd6/cotd_special_design_8_apr_2020/ (via pullpush.io API)"
+                                     ]
+                     },
+                     {
+                         "card":  "Quantum Communications",
+                         "direction":  "lower",
+                         "recommendedScore":  66,
+                         "confidence":  "medium",
+                         "rationale":  "COTD consensus calls it undercosted (\"almost always worth 6+ income, sometimes 10+\"), but that enthusiasm reflects 3-4P tables; in 2P only one opponent feeds the colony count, so realistic payoff is ~3-6 MC prod plus 1 VP, gated behind 4 science tags that often aren\u0027t assembled. The 46.6% option win rate is depressed by the requirement confound (frequently a dead pick when seen) but still argues against unconditional \"strong pick\" status. 66 reflects a good situational engine payoff rather than a 75+ auto-take in the 2P meta.",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/sts8wj/cotd_quantum_communications_16_feb_2022/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/k36sz5/cotd_quantum_communications_29_nov_2020/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/14gujkz/cotd_quantum_communications_23_jun_2023/"
+                                     ]
+                     },
+                     {
+                         "card":  "Heavy Taxation",
+                         "direction":  "lower",
+                         "recommendedScore":  67,
+                         "confidence":  "medium",
+                         "rationale":  "COTD consensus among strong players is \"extremely efficient but only when 2 Earth tags land by gen 1-3; otherwise a dead -1 VP card you draft away,\" making this a conditionally-strong rather than generically-strong pick. The 47.1% option win rate is heavily confounded for a requirement-gated, early-window card (often available but never playable), so it shouldn\u0027t drag the score below average, but it does corroborate that 73 overstates the median case. 67 reflects a good situational econ card that an in-context advisor should upgrade when the player has an Earth-tag start (Point Luna/Teractor/preludes) and downgrade past mid-game.",
+                         "sources":  [
+                                         "https://reddit.com/r/TerraformingMarsGame/comments/fcse0y/cotd_heavy_taxation_3_mar_2020/",
+                                         "https://reddit.com/r/TerraformingMarsGame/comments/nnk9mk/cotd_heavy_taxation_29_may_2021/",
+                                         "https://reddit.com/r/TerraformingMarsGame/comments/1cn0xtc/cotd_heavy_taxation_8_may_2024/"
+                                     ]
+                     },
+                     {
+                         "card":  "Martian Zoo",
+                         "direction":  "lower",
+                         "recommendedScore":  52,
+                         "confidence":  "medium",
+                         "rationale":  "COTD consensus is \"not a great card but it has bonkers moments\" ā€” a build-around whose 2-city requirement fills slowest in 2P, whose payoff (1 MC/animal per gen + 1 fixed VP) ramps too slowly for short BGA Arena games, and whose best stories (Miranda+Viron, solo Point Luna) come from other formats. The 46.8% option win rate (n=5.7k) is drawn from exactly the Colonies games our advisor cares about and corroborates slightly-below-to-average; the lone Tier-1 reddit placement came from an author commenters identified as a weaker, engine-overvaluing player. 70 overrates it by a tier ā€” it deserves ~50, with the residual upside from Earth-tag/Miranda synergy keeping it just above skip territory.",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/wtvyhb/ (COTD Martian Zoo, Aug 2022, read via api.pullpush.io)",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/mjtdlb/ (COTD Martian Zoo, Apr 2021, read via api.pullpush.io)",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/1jwrlyb/ (Subjective card tier list + critical comments, read via api.pullpush.io)"
+                                     ]
+                     },
+                     {
+                         "card":  "Productive Outpost",
+                         "direction":  "lower",
+                         "recommendedScore":  55,
+                         "confidence":  "medium",
+                         "rationale":  "Three COTD threads converge on \"cheap, almost always net-positive, but low ceiling and never a draft priority\" ā€” reliable filler with no tags, no VP, and no production, which is ~55 territory, not 68. The 46.1% option-stat should not drag it below average either: tfmstats Colonies samples skew multiplayer where baseline win-rate-when-available is under 50%, so the stat is roughly neutral. In 2P Colonies specifically, 4 tiles x 3 slots make 2+ own colonies routine, so the card nearly always repays its 3 MC buy cost but rarely does more.",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/11ye11v/cotd_productive_outpost_22_mar_2023/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/ths2mn/cotd_productive_outpost_19_mar_2022/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/l8iljf/cotd_productive_outpost_30_jan_2021/"
+                                     ]
+                     },
+                     {
+                         "card":  "Luna Governor",
+                         "direction":  "lower",
+                         "recommendedScore":  64,
+                         "confidence":  "medium",
+                         "rationale":  "Community consensus across three COTD threads is \"solid but situational B-tier synergy piece\": best-in-class MC-production efficiency (7 MC total for +2 prod plus 2 Earth tags) when played early, but the 3-Earth-tag requirement makes it a frequent dead draft pick ā€” the top practical complaint in the 2023 thread. The 47.5% option win rate is diluted, requirement-confounded, and from a different meta, so it shouldn\u0027t drag the card below average; but 71 sits at \"strong pick\" territory the community doesn\u0027t support, even though 2p+Prelude (and one explicit \"almost always worth buying in 2 player\" comment) keeps it comfortably above 50.",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/tswf7i/cotd_luna_governor_31_mar_2022/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/12rny59/cotd_luna_governor_19_apr_2023/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/gzk1uh/cotd_luna_governor_9_jun_2020/"
+                                     ]
+                     },
+                     {
+                         "card":  "Ganymede Colony",
+                         "direction":  "lower",
+                         "recommendedScore":  63,
+                         "confidence":  "medium",
+                         "rationale":  "COTD consensus splits between \"almost always a keep ā€” cheapest Jovian multiplier, denial value, off-map city for Mayor\" and \"only worth playing with 2+ other Jovian tags or Saturn Systems; otherwise a late-game titanium dump with no economy.\" The 44.1% played win rate (n=67k) reflects that committing to Jovian-heavy lines underperforms in 2p, while the +0.91 elo change shows the card itself is only mildly positive ā€” together that\u0027s \"above-average situational pick,\" not a 75 strong pick. Note the Colonies confound is moot: Ganymede Colony is a base-game card, unrelated to the Colonies-expansion Ganymede tile.",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/1abewjx/cotd_ganymede_colony_26_jan_2024/ (via pullpush.io)",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/r5jzbh/cotd_ganymede_colony_30_nov_2021/ (via pullpush.io)",
+                                         "https://rpggeek.com/thread/2508833/base-game-card-tier-list-attempt"
+                                     ]
+                     },
+                     {
+                         "card":  "Caretaker Contract",
+                         "direction":  "lower",
+                         "recommendedScore":  35,
+                         "confidence":  "high",
+                         "rationale":  "COTD consensus is unanimous that this is a D/F+ tier, \"extremely situational\" card worth 2-3 TR best case, since the standard 8-heat action gives the same TR plus a temperature step until temp maxes ā€” and the 0Ā°C requirement plus once-per-gen action are even worse in short 2p Prelude games with few remaining generations. tm-tierlist\u0027s 54 is itself inflated by played-when-heat-flooded selection bias, so 68 is a clear overrate; its cheap cost and niche late-game/Helion/anti-Ecoline uses keep it just below the \"usually skip\" line rather than at the floor.",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/11xci1d/cotd_caretaker_contract_21_mar_2023/",
+                                         "https://boardgamegeek.com/thread/1639842/card-154-caretaker-contract",
+                                         "https://rpggeek.com/thread/2508833/base-game-card-tier-list-attempt"
+                                     ]
+                     },
+                     {
+                         "card":  "Protected Habitats",
+                         "direction":  "keep",
+                         "recommendedScore":  84,
+                         "confidence":  "medium",
+                         "rationale":  "Both COTD threads and the dedicated 2-player BGG/blog literature rate this card dramatically higher in 1v1 than generic lists do (\"almost S-tier in 1v1\", \"instant pick in 2p\", \"defuses Ants and Predators completely in a 2p game\"), because all removal targets you and plant-banking/greenery-timing value accrues in nearly every game for 8 MC total. The tm-tierlist 70 appears player-count-agnostic, and the only neutral data signal (37.4% WR, WAP ~0 in RuneDK93\u0027s elite BGA dataset) comes from 3-player games where the card is known to be weaker. Prelude-shortened games and zero direct VP/economy cap it below elite, so 84 (\"strong pick, not elite\") is well calibrated.",
+                         "sources":  [
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/1izclat/",
+                                         "https://www.reddit.com/r/TerraformingMarsGame/comments/kdj4ja/cotd_protected_habitats_15_dec_2020/",
+                                         "https://boardoflife.wordpress.com/2018/08/30/thoughts-on-two-player-terraforming-mars-part-i/"
+                                     ]
+                     }
+                 ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bga-tm-advisor",
+  "version": "0.3.0",
+  "description": "Terraforming Mars card advisor for BoardGameArena",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "watch": "node esbuild.config.mjs --watch",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.43",
+    "esbuild": "^0.21.0",
+    "typescript": "^5.5.0"
+  }
+}

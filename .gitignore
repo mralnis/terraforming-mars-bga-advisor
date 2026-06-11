@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output (rebuild with `npm run build`; load-unpacked points here)
+dist/
+dist-dev/
+
+# third-party datasets downloaded for ratings verification — refetch via
+# docs/RATINGS-VERIFICATION-PLAN.md, do not redistribute
+verification/tfmstats-played.json
+verification/tfmstats-options.json
+verification/tm-tierlist.json
+
+# transient
+*.log
+*.b64
+
+# research-agent scratch downloads (third-party web content)
+verification/scratch/

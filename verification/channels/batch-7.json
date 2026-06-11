@@ -1,0 +1,643 @@
+[
+ {
+  "name": "Psychrophiles",
+  "type": "active",
+  "cost": 2,
+  "tags": [
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": "Max -20°C",
+  "description": "Temperature must be -20 C or lower.",
+  "score": 82,
+  "when_to_pick": "Always draft if temp <= -20C. Play immediately. Loses value rapidly as temperature rises.",
+  "reasoning": "Extremely cheap and high value. Acts as ~2 MC production specifically for plant cards, which are common in any strategy. Max -20C requirement ensures early game play only. Microbe tag adds Ecologist/D"
+ },
+ {
+  "name": "Cheung Shing MARS",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 3 M€ production and 44 M€.",
+  "score": 74,
+  "when_to_pick": "Универсальный pick. Хорош с building-рукой. Не выбирай если рука Space/ti heavy.",
+  "reasoning": "Стабильная, надёжная корпорация. 3 MC-prod = отличный ранний income. Building тег для Builder milestone. По COTD: shai_aus и benbever оценивают солидно."
+ },
+ {
+  "name": "Point Luna",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Space",
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 1 titanium production and 38 M€.",
+  "score": 90,
+  "when_to_pick": "Почти всегда pick. Только пропускай если 0 Earth тегов в стартовых 10 (очень редко). S-tier.",
+  "reasoning": "Card draw от Earth тегов решает фундаментальную проблему engine: economy + card draw одновременно. Earth теги распространённые и хорошие карты. По COTD: shai_aus — 'one of the best engine corps', benb"
+ },
+ {
+  "name": "Robinson Industries",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 47 M€.",
+  "score": 58,
+  "when_to_pick": "Decent generic pick only when early ti or energy bumps unlock trade or expensive cards. Better in slower games and colony-heavy setups.",
+  "reasoning": "Slow-burn generalist with decent floor, not premium opener. Action: 4 MC за любой production is excellent when it unlocks titanium or energy early, but corp is tempo-light and can feel clunky without "
+ },
+ {
+  "name": "Valley Trust",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 37 M€. As your first action, draw 3 Prelude cards, and play one of them. Discard the other two.",
+  "score": 70,
+  "when_to_pick": "Почти всегда safe pick. Extra prelude = flexibility и power. На Hellas (Scientist award) чуть лучше.",
+  "reasoning": "Extra prelude — мощный gen 1 boost. Выбор из 3 = обычно 25-30+ MC value. Science discount consistently useful. По COTD: shai_aus — 'quite strong'. Solid but not amazing."
+ },
+ {
+  "name": "Vitor",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 45 M€. As your first action, fund an award for free.",
+  "score": 85,
+  "when_to_pick": "Почти всегда. Особенно с VP-heavy рукой. Top 5 corp overall.",
+  "reasoning": "+3 MC на VP карты абсурдно хорош — VP карты и так лучшие в игре, Vitor делает их ещё лучше. Free award = strategic advantage. По COTD: shai_aus — 'absolutely top tier', icehawk84 — 'insane how much mo"
+ },
+ {
+  "name": "Allied Bank",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 4 steps. Gain 3 M€.",
+  "score": 80,
+  "when_to_pick": "Almost always a good pick. Slightly better in longer games (more gens to benefit from production).",
+  "reasoning": "One of the best production preludes. 4 MC-prod is flexible and always useful. Earth tag is relevant for Point Luna, Cartels, Space Hotels. No downside, no requirements. Slightly below Business Empire "
+ },
+ {
+  "name": "Biosphere Support",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your plant production 2 steps. Decrease your M€ production 1 step.",
+  "score": 38,
+  "when_to_pick": "Almost never. Only Ecoline with NRA in hand where you desperately need 3 plant tags. Bottom 5 prelude.",
+  "reasoning": "One of the worst preludes. The -1 MC-prod is devastating in gen 1 when you only have ~20 MC production. 2 plant-prod alone rarely justifies losing MC income. COTD top comment: 'it sucks'. The plant ta"
+ },
+ {
+  "name": "Aquifer Turbines",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Power"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place an ocean tile. Increase your energy production 2 steps. Pay 3 M€.",
+  "score": 72,
+  "when_to_pick": "When you have energy sinks in hand or are playing with Colonies. Good on Tharsis for ocean placement bonuses.",
+  "reasoning": "Solid prelude with ocean + 2 energy-prod. Per COTD community, value is heavily colony-dependent: near-autopick with Colonies (energy for trading), mediocre without. Ocean placement bonus can be signif"
+ },
+ {
+  "name": "Mohole Excavation",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your steel production 1 step and heat production 2 steps. Gain 2 heat.",
+  "score": 48,
+  "when_to_pick": "Almost never. Only as Helion or if you need Building tag and nothing better exists.",
+  "reasoning": "Below average. Unfocused production split between steel and heat is underwhelming. 2 heat-prod is weak. COTD (benbever): 'below average value, not very interesting'. Building tag helps slightly. Stric"
+ },
+ {
+  "name": "Early Settlement",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building",
+   "City"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your plant production 1 step. Place a city tile.",
+  "score": 50,
+  "when_to_pick": "Only on Tharsis for Mayor milestone or if you can grab Olympus Mons on Elysium. Otherwise skip.",
+  "reasoning": "Below average. Cities are overvalued by the game — they cost an action and adjacency VP takes many gens to develop. 1 plant-prod alone is weak. Building+City tags are niche. COTD: 'rarely worth pickin"
+ },
+ {
+  "name": "Biofuels",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your energy and plant production 1 step. Gain 2 plants.",
+  "score": 40,
+  "when_to_pick": "When you simultaneously need energy, plant prod, and a microbe or bio shell. Also much better in EcoLine rush openers that can use the energy and extra plants immediately.",
+  "reasoning": "Raw value is still below average (~19.5 MC vs 24.5 average), so this is not a generic good prelude. But SHOTW uses it more than pure math suggests in starts that want all three pieces at once: energy "
+ },
+ {
+  "name": "Power Generation",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Power"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your energy production 3 steps.",
+  "score": 68,
+  "when_to_pick": "Best with Colonies or when 3 energy immediately enables trade or a key payoff on gen 1-2. Without sinks, it is just expensive heat prod.",
+  "reasoning": "With Colonies (our default format): 3 energy-prod = free trade every gen from gen 1. Energy gen 1 ≈ 10 MC per top players (BonelessDota). 3 energy-prod lifetime ≈ 30 MC value over 5 gens from trade al"
+ },
+ {
+  "name": "Self-Sufficient Settlement",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building",
+   "City"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 2 steps. Place a city tile.",
+  "score": 53,
+  "when_to_pick": "When the city spot immediately gives draw, plant tempo, or milestone pressure. Much worse as a generic economy prelude.",
+  "reasoning": "Below average in vacuum, but SHOTW shows that its best cases matter more than the old text admits. Early city placement can immediately become 3 cards, 3 plants, estate pressure, or a key building and"
+ },
+ {
+  "name": "Mining Operations",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your steel production 2 steps. Gain 4 steel.",
+  "score": 64,
+  "when_to_pick": "Only when you have 3+ building cards in hand. Without building targets, much weaker.",
+  "reasoning": "Above average raw value but highly conditional on having building cards. If your hand is space/science-heavy, the steel is nearly worthless. 2 steel-prod is a lot — you need consistent building card f"
+ },
+ {
+  "name": "UNMI Contractor",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your TR 3 steps. Draw a card.",
+  "score": 82,
+  "when_to_pick": "Almost always strong. Loses mainly to hands where another prelude gives a clearer immediate setup for trade, power, or a key engine start.",
+  "reasoning": "Still one of the strongest generic preludes: 3 TR + card + Earth tag is huge and flexible value. Per benbever, value is around 31 MC, and the floor remains excellent. Но SHOTW suggests it is not an au"
+ },
+ {
+  "name": "Dome Farming",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Plant",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 2 steps and plant production 1 step.",
+  "score": 63,
+  "when_to_pick": "When you need the Plant+Building tag combo, or have Robotic Workforce. Acceptable filler prelude.",
+  "reasoning": "Slightly below average in raw value but the 2 tags are genuinely useful. Building tag makes it a Robotic Workforce target (+10 MC value if copied). Plant tag for NRA, Ecologist. COTD: 'not bad, tags a"
+ },
+ {
+  "name": "Business Empire",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 6 steps. Pay 6 M€.",
+  "score": 80,
+  "when_to_pick": "When you have enough starting MC to absorb the 6 MC cost without crippling gen 1. Better in longer games.",
+  "reasoning": "High production value but the 6 MC cost delays payoff to gen 3. Better than Allied Bank in ceiling (6 vs 4 prod) but worse floor due to cost crippling gen 1 spending. Earth tag is nice. COTD: 'very po"
+ },
+ {
+  "name": "Donation",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 21 M€.",
+  "score": 45,
+  "when_to_pick": "When you have expensive cards to play gen 1 and other preludes don't fit. Never exciting but rarely terrible.",
+  "reasoning": "The baseline prelude — exactly average historically but slightly below the current ~24.5 MC average. Raw money is flexible but has no multiplying effect (no production, no tags, no TR). COTD: 'perfect"
+ },
+ {
+  "name": "Nitrogen Shipment",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your plant production 1 step. Increase your TR 1 step. Gain 5 M€.",
+  "score": 36,
+  "when_to_pick": "Almost never. Only when all other options are truly terrible.",
+  "reasoning": "One of the worst preludes. A little bit of everything but not enough of anything. No tags makes it even worse. COTD: 'in the contest for worst prelude' (shai_aus), 'average value that is actually not "
+ },
+ {
+  "name": "Smelting Plant",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise oxygen 2 steps. Gain 5 steel.",
+  "score": 72,
+  "when_to_pick": "When you have building cards to spend the steel. Good if O2 unlocks requirement cards. Solid TR prelude.",
+  "reasoning": "Good value prelude with immediate 2 TR from oxygen. 5 steel is a nice bonus if you have building cards. Building tag enables Robotic Workforce and steel discount. COTD (benbever): 'high value, ~30 MC "
+ },
+ {
+  "name": "Supplier",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Power"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your energy production 2 steps. Gain 4 steel.",
+  "score": 66,
+  "when_to_pick": "When you need energy for Colonies or have building cards to spend steel on. Decent default pick.",
+  "reasoning": "Solid average prelude. 2 energy-prod is useful with Colonies or energy-hungry cards. 4 steel is decent gen 1 spending. Power tag is rarely relevant. COTD: 'generally like it, upper middle tier' (shai_"
+ },
+ {
+  "name": "Supply Drop",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 3 titanium, 8 steel and 3 plants.",
+  "score": 74,
+  "when_to_pick": "When you have building + space cards to spend resources immediately. Less good without targets.",
+  "reasoning": "High raw value (~27 MC) when you can spend all resources. 8 steel is a lot — you need building cards. 3 ti needs space cards. 3 plants can contribute to an early greenery. The catch: no production mea"
+ },
+ {
+  "name": "Great Aquifer",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Place 2 ocean tiles.",
+  "score": 84,
+  "when_to_pick": "Almost always a strong pick. Best on Tharsis (placement bonuses). Slightly less good if you have zero ground game cards.",
+  "reasoning": "Top-tier prelude. 2 oceans provides immediate 2 TR, excellent placement bonuses (up to 2 cards + 2 ti on Tharsis), and controls the ocean track. Enables Arctic Algae, Kelp Farming. COTD consensus: 'am"
+ },
+ {
+  "name": "Biolab",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your plant production 1 step. Draw 3 cards.",
+  "score": 58,
+  "when_to_pick": "Only when you need the Science tag to unlock something critical in gen 1, or your other preludes are truly terrible.",
+  "reasoning": "Below average value. 1 plant-prod is weak standalone. 3 random cards are a gamble — you might get nothing useful. Science tag is the main draw (unlock requirements, Scientist award). COTD consensus: '"
+ },
+ {
+  "name": "Martian Industries",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your energy and steel production 1 step. Gain 6 M€.",
+  "score": 52,
+  "when_to_pick": "When the opening can immediately convert steel, titanium, or energy into tempo, trade, or a space-building line. Much better in concrete starts than in abstract.",
+  "reasoning": "Below-average raw package, but SHOTW likes it more than pure value models do because 1 steel-prod + 1 energy-prod + 6 MC often bridge directly into gen 1 tempo. Particularly good when the opener can i"
+ },
+ {
+  "name": "Io Research Outpost",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Jovian",
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your titanium production 1 step. Draw a card.",
+  "score": 56,
+  "when_to_pick": "Only with Saturn Systems or when both Jovian+Science tags are critical for your strategy.",
+  "reasoning": "Below average. 1 ti-prod + 1 card is underwhelming for a prelude slot. The Jovian+Science double tag is the main attraction but even then the total value is mediocre. COTD: 'one of the worst preludes'"
+ },
+ {
+  "name": "Polar Industries",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your heat production 2 steps. Place an ocean tile.",
+  "score": 74,
+  "when_to_pick": "Good for rush or terraforming strategies. Ocean placement bonuses can be excellent on Tharsis.",
+  "reasoning": "Solid prelude combining terraforming (ocean) with heat engine. Better than Mohole because the ocean provides immediate TR + placement bonus. Building tag enables Robotic Workforce. COTD (benbever): 'a"
+ },
+ {
+  "name": "Society Support",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your plant, energy and heat production 1 step. Decrease M€ production 1 step.",
+  "score": 30,
+  "when_to_pick": "Never. There is virtually no scenario where this is the right pick.",
+  "reasoning": "The worst or second-worst prelude in the game. Losing MC-prod in gen 1 is devastating, and you get 3 marginal productions in return with no tags at all. COTD (shai_aus): 'no idea what they were thinki"
+ },
+ {
+  "name": "Galilean Mining",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Jovian"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your titanium production 2 steps. Pay 5 M€.",
+  "score": 42,
+  "when_to_pick": "Only with Saturn Systems or when you need Jovian tag for Rim Settler. Otherwise one of the weakest preludes.",
+  "reasoning": "Sounds good on paper (2 ti-prod + Jovian tag) but deeply flawed. The -5 MC cost means it doesn't start paying until gen 3. Ti-prod is useless without Space cards to spend it on, and vulnerable to AMC "
+ },
+ {
+  "name": "Huge Asteroid",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase temperature 3 steps. Pay 5 M€.",
+  "score": 66,
+  "when_to_pick": "Strong in rush strategies. Good when you have temp-requirement cards. The 5 MC cost means less good if you're cash-starved.",
+  "reasoning": "3 temp TR = 21 MC - 5 MC cost = 16 MC net + ~4 MC heat-prod bonus = ~20 MC. Below average prelude (24.5 MC). Tempo is good but no tags, no production, no cards. Rush-only value, and WGT already raises"
+ },
+ {
+  "name": "Metals Company",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€, steel and titanium production 1 step.",
+  "score": 80,
+  "when_to_pick": "Almost always. Default pick unless your other preludes are specifically stronger for your hand. Slightly less good in pure rush but still solid.",
+  "reasoning": "Near-universal pick. Diverse production covers any strategy — MC for flexibility, steel for buildings, ti for space. No tags is a real penalty but compensated by zero requirements and fitting any corp"
+ },
+ {
+  "name": "Loan",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 30 M€. Decrease your M€ production 2 steps.",
+  "score": 44,
+  "when_to_pick": "Only when 30 MC enables a critical gen 1 play (e.g., Io Mining) and you have no better production prelude.",
+  "reasoning": "One of the worst preludes. 30 MC sounds great but -2 MC-prod is brutal in gen 1 — you're cutting into your already thin 20 MC production. COTD (benbever): 'one of the worst preludes in quantified valu"
+ },
+ {
+  "name": "Mohole",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your heat production 3 steps. Gain 3 heat.",
+  "score": 52,
+  "when_to_pick": "Only as Helion (where heat-prod = MC-prod) or for Robotic Workforce target. Otherwise avoid.",
+  "reasoning": "Below average. Heat production is overpriced and least efficient in the game. 3 heat-prod sounds impressive but heat is the cheapest resource. COTD (Krazyguy75): 'this prelude sucks'. Building tag is "
+ },
+ {
+  "name": "Metal-Rich Asteroid",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase temperature 1 step. Gain 4 titanium and 4 steel.",
+  "score": 75,
+  "when_to_pick": "When you have building and space cards to spend the metals. Almost always a strong pick.",
+  "reasoning": "High value prelude (~30 MC when metals are spent). 1 TR is immediate tempo. 4 ti + 4 steel provides flexible gen 1 spending for both space and building cards. COTD (benbever): 'top 10 best preludes'. "
+ },
+ {
+  "name": "Orbital Construction Yard",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your titanium production 1 step. Gain 4 titanium.",
+  "score": 48,
+  "when_to_pick": "When you have multiple space cards in hand. Skip if your hand is building/earth-focused or if AMC risk is high.",
+  "reasoning": "Average raw value but highly conditional. 4 ti + 1 ti-prod is a lot of titanium — you need space cards to spend it. Vulnerable to Asteroid Mining Consortium stealing the production. COTD: 'not great' "
+ },
+ {
+  "name": "Acquired Space Agency",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 6 titanium. Reveal cards until you reveal two cards with Space Tags. Take them into your hand, discard the rest.",
+  "score": 72,
+  "when_to_pick": "When you have space cards in hand or are playing Phobolog/Saturn Systems. Skip if your hand is all building/earth.",
+  "reasoning": "Per COTD: community разделена — 'gambling is fun' vs 'pretty bad, don't spend money on space cards early'. Опытные игроки: reveal cards = mind games + info advantage. Лучше с Phobolog (ti value +1). 5"
+ },
+ {
+  "name": "Research Network",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Wild"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 1 step. Draw 3 cards. After being played, when you perform an action, the wild tag counts as any tag of your choice.",
+  "score": 68,
+  "when_to_pick": "When the Wild tag solves a real problem: weak starting hand, milestone tag race, or key requirement card in the opener. Less good if you only need raw production and the extra cards do not point anywh",
+  "reasoning": "The Wild tag is the star: it fills awkward tag requirements, pushes milestone races, and makes mediocre opening hands keepable by widening your outs. 1 MC-prod + 3 cards is only solid by itself; the c"
+ },
+ {
+  "name": "Eccentric Sponsor",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "text item Play a card from hand, reducing its cost by 25 M€ root",
+  "score": 58,
+  "when_to_pick": "Only when you have a 25+ MC card you want to play gen 1. If you don't have the target, never pick this.",
+  "reasoning": "High variance prelude. When you have an expensive engine card (Io Mining, Space Elevator, Terraforming Ganymede) in opening hand, it is better than Donation (+4 MC). When you don't, it's one of the wo"
+ },
+ {
+  "name": "Ecology Experts",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Plant",
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your plant production 1 step. PLAY A CARD FROM HAND, IGNORING GLOBAL REQUIREMENTS.",
+  "score": 70,
+  "when_to_pick": "Only when you have a strong card with a global requirement you can't meet otherwise. Remember: it ignores global requirements only, not tag requirements.",
+  "reasoning": "Extremely swingy. With Kelp Farming, Trees, Bushes, or NRA in hand — one of the best preludes in the game. Without a strong target — one of the worst, since 1 plant-prod + 2 tags alone is ~11 MC. COTD"
+ },
+ {
+  "name": "Experimental Forest",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place 1 greenery tile and raise oxygen 1 step. Reveal cards until you reveal two cards with plant tags on them. Take them into your hand and discard the rest.",
+  "score": 82,
+  "when_to_pick": "Plant/ground game стратегия. Особенно с Ecoline. На Tharsis для Gardener milestone. 2 plant-карты из колоды обеспечивают pipeline на следующие поколения.",
+  "reasoning": "Отличная прелюдия для ground game. Greenery gen 1 — мощный tempo: 1 TR + oxygen + placement bonus + board presence. Per COTD community: 'unbelievable prelude', tile placement часто даёт большой rebate"
+ },
+ {
+  "name": "Ishtar Expedition",
+  "type": "event",
+  "cost": 6,
+  "tags": [
+   "Venus"
+  ],
+  "vp": null,
+  "requirements": "10% Venus",
+  "description": "Requires Venus 10%. Gain 3 titanium and draw 2 Venus cards.",
+  "score": 73,
+  "when_to_pick": "When Venus has been raised or is actively being raised. The titanium pays for itself; the Venus cards are pure upside.",
+  "reasoning": "Self-funding card that breaks even on titanium alone and gets 2 free Venus cards as bonus. The Venus 10% requirement is manageable with WGT bumping Venus. In games where Venus is actively being terraf"
+ },
+ {
+  "name": "Summit Logistics",
+  "type": "automated",
+  "cost": 10,
+  "tags": [
+   "Building",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": "Scientists ruling",
+  "description": "megacredits item symbol tag item jovian tag item earth tag item venus colonies item cards item text item (Requires that Scientists are ruling or that you have 2 delegates there. Gain 1 M€ per planet tag and colony you ha",
+  "score": 63,
+  "when_to_pick": "When Scientists are ruling or you have 2 delegates there. Best with 3+ planet tags and colonies. Skip if Scientists party is not accessible.",
+  "reasoning": "Solid but requires Scientists ruling or 2 delegates in Scientists party. Building+Space dual tag is premium (steel and ti payable). 2 cards drawn = 6 MC value. The MC per planet tag + colony is variab"
+ },
+ {
+  "name": "Ceres Tech Market",
+  "type": "active",
+  "cost": 12,
+  "tags": [
+   "Science",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "text item -X cards item symbol -> text item 2x megacredits item Action: Discard any number of cards from your hand to gain 2 M€ for each discarded card. effect megacredits item symbol colonies item text item (Gain 2 M€ p",
+  "score": 69,
+  "when_to_pick": "Gen 2-4 with Science tag synergies and/or colonies. The card recycling action is useful throughout the game. Science+Space tag combo is always valuable.",
+  "reasoning": "Strong utility card with premium Science+Space tags. The card discard action provides flexibility to convert dead cards into cash (2 MC each). Colony rebate on play gives immediate return with colonie"
+ },
+ {
+  "name": "Red Appeasement",
+  "type": "event",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": "Reds ruling",
+  "description": "text item Requires that Reds are ruling or that you have 2 delegates there, AND THAT NO OTHER PLAYER HAS PASSED. megacredits item production-box text item PASS symbol text item Increase M€ production 2 steps. This counts",
+  "score": 62,
+  "when_to_pick": "When Reds are ruling and you are first to act. Very niche but powerful when conditions align.",
+  "reasoning": "Excellent efficiency when it works - 3 MC for 2 MC-prod is outstanding. But the requirement is very restrictive: Reds ruling is uncommon, and 'no other player passed' limits timing. Passing immediatel"
+ },
+ {
+  "name": "L1 Trade Terminal",
+  "type": "active",
+  "cost": 25,
+  "tags": [
+   "Space"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "trade item symbol text item +2 Effect: When you trade, you may first increase that colony tile track 2 steps. effect text item diverse_tag item symbol text item (Add a resource to 3 different cards that already have reso",
+  "score": 84,
+  "when_to_pick": "Always keep in opening hand. Top draft priority in Colony games. The earlier you play this, the more value it generates.",
+  "reasoning": "Powerful colony synergy. +2 track steps per trade worth 6-8 MC. Per COTD: 'extremely powerful in most games.' Resource placement on 3 cards is bonus. Originally had no resource restriction. One of str"
+ },
+ {
+  "name": "Cloud Tourism",
+  "type": "active",
+  "cost": 11,
+  "tags": [
+   "Jovian",
+   "Venus"
+  ],
+  "vp": "1/3 resources",
+  "requirements": null,
+  "description": "Increase your M€ production 1 step for each pair of Earth and Venus tags you own. 1 VP for every 3rd floater on this card.",
+  "score": 56,
+  "when_to_pick": "When you have 2+ Earth tags AND 2+ Venus tags. Very niche. Skip without dual-tag investment.",
+  "reasoning": "Requires both Earth AND Venus tag investment to generate meaningful MC-prod, which is a narrow niche. The 1/3 VP per floater is very slow. With 2 Earth+Venus pairs, 2 MC-prod for 14 MC is fair but req"
+ }
+]

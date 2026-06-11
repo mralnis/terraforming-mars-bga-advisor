@@ -1,0 +1,660 @@
+[
+ {
+  "name": "Mine",
+  "type": "automated",
+  "cost": 4,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your steel production 1 step.",
+  "score": 68,
+  "when_to_pick": "Gen 1-2 when you have steel targets. Cheap building tag filler. Skip after gen 3.",
+  "reasoning": "Simple, solid production card. 7 MC for 1 steel production is good value early. Building tag helps with Builder milestone. icehawk84 rates it a keep in opening hand and high priority gen 1-2. It becom"
+ },
+ {
+  "name": "Mineral Deposit",
+  "type": "event",
+  "cost": 5,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 5 steel.",
+  "score": 58,
+  "when_to_pick": "When you have event rebates or need steel for specific plays. Low draft priority. Good as free draw.",
+  "reasoning": "Small but positive value if you can spend the steel. The no-tag penalty hurts significantly. With IC/Media Group rebates it becomes good. benbever notes it's good for Legend milestone and Miner award."
+ },
+ {
+  "name": "Mining Area",
+  "type": "automated",
+  "cost": 4,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place this tile on an area with a steel or titanium placement bonus, adjacent to another of your tiles. Increase your production of that resource 1 step.",
+  "score": 74,
+  "when_to_pick": "When you have a tile adjacent to a mineral spot. Prioritize titanium over steel. Keep in opening hand.",
+  "reasoning": "One of the best production cards when placement is available. Requires a tile next to your own on a mineral spot, which limits early-game use. On titanium it's phenomenal (12.5 MC value for 7 MC cost)"
+ },
+ {
+  "name": "Miranda Resort",
+  "type": "automated",
+  "cost": 12,
+  "tags": [
+   "Jovian",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Increase your M€ production 1 step for each Earth tag you have.",
+  "score": 66,
+  "when_to_pick": "When you have 3+ Earth tags for MC-prod, or need a cheap Jovian tag. Ti-payable helps late game.",
+  "reasoning": "Decent MC production if you have 3+ Earth tags, plus Jovian tag for multipliers. But doesn't include its own Earth tag (unlike Cartels), making it strictly worse for economy. The Jovian tag adds value"
+ },
+ {
+  "name": "Olympus Conference",
+  "type": "active",
+  "cost": 10,
+  "tags": [
+   "Science",
+   "Earth",
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "When you play a science tag, including this, either add a science resource to this card, or remove a science resource from this card to draw a card.",
+  "score": 85,
+  "when_to_pick": "Always. High first-pick priority. Play early to maximize card draw. The triple-tag is unmatched.",
+  "reasoning": "Incredible triple-tag card with card draw engine. Not quite Mars University (which swaps every science tag vs every other), but the Earth+Building+Science tags make it arguably better in some dimensio"
+ },
+ {
+  "name": "Physics Complex",
+  "type": "active",
+  "cost": 12,
+  "tags": [
+   "Science",
+   "Building"
+  ],
+  "vp": "2/resource",
+  "requirements": null,
+  "description": "energy item symbol -> resource item Science Action: Spend 6 energy to add a science resource to this card. effect text item 2 VP for each science resource on this card. XS root",
+  "score": 56,
+  "when_to_pick": "Only with 6+ energy production and no better use for it. The tags alone can justify it as a steel dump.",
+  "reasoning": "The 'newbie trap' card that looks amazing but is usually mediocre. 6 energy per action is an enormous cost that could be used for temperature/trading. icehawk84 notes it's a scaling late-game card but"
+ },
+ {
+  "name": "Power Infrastructure",
+  "type": "active",
+  "cost": 4,
+  "tags": [
+   "Power",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "text item energy item symbol -> megacredits item Action: Spend any amount of energy and gain that amount of M€. effect root",
+  "score": 55,
+  "when_to_pick": "Only for Builder/Diversifier milestone tags. The action is almost never worth using. Cheap steel dump.",
+  "reasoning": "The action is almost always a bad trade since energy is worth more than MC when used properly (for trading, bumping, heat). The Power+Building tags for 7 MC steel-payable are the real value -- useful "
+ },
+ {
+  "name": "Power Supply Consortium",
+  "type": "automated",
+  "cost": 5,
+  "tags": [
+   "Power"
+  ],
+  "vp": null,
+  "requirements": "2 Power tags",
+  "description": "Requires 2 power tags. Decrease any energy production 1 step and increase your own 1 step.",
+  "score": 59,
+  "when_to_pick": "When you already have 2 Power tags and can disrupt an opponent's plans. Less useful in 3P than 2P.",
+  "reasoning": "The attack is meaningful but the 2 Power tag requirement is restrictive and often hard to fulfill when you most need it. In 3P, stealing energy helps the third player. icehawk84 notes Energy Tapping i"
+ },
+ {
+  "name": "Protected Habitats",
+  "type": "active",
+  "cost": 5,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "text item Opponents may not remove your plants item resource item Animal resource item Microbe root",
+  "score": 84,
+  "when_to_pick": "Almost always draft - deny it to opponents even if you don't need it. Play when you have plants/animals worth protecting.",
+  "reasoning": "Cheap, easy to play, and extremely impactful. icehawk84 calls it S-tier. In 3P, it redirects all plant attacks to opponents, which is a double benefit. No tags is a downside, but the protection value "
+ },
+ {
+  "name": "Quantum Extractor",
+  "type": "active",
+  "cost": 13,
+  "tags": [
+   "Science",
+   "Power"
+  ],
+  "vp": null,
+  "requirements": "4 Science tags",
+  "description": "Requires 4 science tags. Increase your energy production 4 steps.",
+  "score": 68,
+  "when_to_pick": "When already building science engine and need energy. Do not play bad science tags just to unlock this.",
+  "reasoning": "Strong energy production and space discount, but 4 Science tag requirement means mid-late game play when energy prod is less critical. icehawk84 calls it 'Mass Converter's little brother.' No VP hurts"
+ },
+ {
+  "name": "Rad-Suits",
+  "type": "automated",
+  "cost": 6,
+  "tags": [],
+  "vp": "1",
+  "requirements": "2 cities",
+  "description": "Requires two cities in play. Increase your M€ production 1 step.",
+  "score": 45,
+  "when_to_pick": "Only as a last-gen VP dump when you have nothing better. Never draft early.",
+  "reasoning": "Awful card per Krazyguy75's analysis. No tags, low impact, essentially a worse TR for 9 MC. The 2 cities requirement is trivial but the card just does not do enough. shai_aus says 'fine for a point' b"
+ },
+ {
+  "name": "Research",
+  "type": "automated",
+  "cost": 11,
+  "tags": [
+   "Science",
+   "Science"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Counts as playing 2 science cards. Draw 2 cards.",
+  "score": 80,
+  "when_to_pick": "Almost always draft. Play mid-game when science tags enable payoff cards. Early keep for science engine.",
+  "reasoning": "Per COTD: 'the purest form of 2-for-1, would be good with one science tag but two? Insta-pick.' Double Science tag = AI Central, Mass Converter, AGT enabler. Опытные игроки: Mars University, Olympus C"
+ },
+ {
+  "name": "Restricted Area",
+  "type": "active",
+  "cost": 11,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place this tile.",
+  "score": 70,
+  "when_to_pick": "Early-mid game for engine builders. The tile placement gives immediate value, card draw compounds over time.",
+  "reasoning": "Good engine card for card draw. Science tag without requirements is valuable. Tile placement provides board presence and bonuses. 2 MC/card draw is reasonable rate. icehawk84 notes 5 uses needed to br"
+ },
+ {
+  "name": "Robotic Workforce",
+  "type": "automated",
+  "cost": 9,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Duplicate only the production box of one of your building cards.",
+  "score": 74,
+  "when_to_pick": "Draft when you have good building cards with production boxes. Play after the target card is played.",
+  "reasoning": "Excellent when you have a strong building production card to copy. Science tag is very valuable. benbever lists many great targets. The card is never bad as a 12 MC science tag, and can be game-changi"
+ },
+ {
+  "name": "Sabotage",
+  "type": "event",
+  "cost": 1,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Remove up to 3 titanium from any player, or 4 steel, or 7 M€.",
+  "score": 54,
+  "when_to_pick": "Almost never in 3P. Only with event rebates/discounts or to deny a critical milestone.",
+  "reasoning": "Classic take-that trap in 3P. You spend 4 MC to hurt one opponent, benefiting the third player for free. No tags, no self-benefit. Krazyguy75 dislikes the entire category. Only playable for free with "
+ },
+ {
+  "name": "Satellites",
+  "type": "automated",
+  "cost": 10,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 1 step for each space tag you have, including this one.",
+  "score": 59,
+  "when_to_pick": "When you have 3+ non-event space tags played. Can swing Banker award. Otherwise skip.",
+  "reasoning": "Needs many non-event space tags to be worthwhile, which is difficult. shai_aus notes event space tags do not count, making it much weaker. Best for Banker award sniping. With 4+ space tags it gives 4+"
+ },
+ {
+  "name": "Security Fleet",
+  "type": "active",
+  "cost": 12,
+  "tags": [
+   "Space"
+  ],
+  "vp": "1/resource",
+  "requirements": null,
+  "description": "titanium item symbol -> resource item Fighter Action: Spend 1 titanium to add 1 fighter resource to this card. effect text item 1 VP for each fighter resource on this card. XS root",
+  "score": 42,
+  "when_to_pick": "Almost never. Only as a last-gen titanium dump for VP, and even then the 15 MC upfront is steep.",
+  "reasoning": "Per COTD: trap card. shai_aus: having lots of titanium with nothing to spend is bad. Krazyguy75: needs 6+ activations, terrible. ad_hocNC: bottom 3 in the game. D42 for extreme edge cases."
+ },
+ {
+  "name": "Space Elevator",
+  "type": "active",
+  "cost": 27,
+  "tags": [
+   "Space",
+   "Building"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "Increase your titanium production 1 step.",
+  "score": 70,
+  "when_to_pick": "When you have steady steel production (2+ steel-prod). Best for IC opening hand.",
+  "reasoning": "Expensive but rewarding with steel production. Ti production + steel->MC conversion + 2 VP makes it a decent mid-game investment. shai_aus is uncertain about value. COTD consensus: 'good with steel co"
+ },
+ {
+  "name": "Space Station",
+  "type": "active",
+  "cost": 10,
+  "tags": [
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "tag item space symbol megacredits item Effect: When you play a space card, you pay 2 M€ less for it. effect root",
+  "score": 66,
+  "when_to_pick": "Early when you already have 2-3 keepable space cards or early titanium. Late game only as VP or titanium dump.",
+  "reasoning": "Solid for space-heavy engines and notably better from the opening hand than midgame heuristics imply. SHOTW often keeps it when the start already contains multiple space cards or early titanium, becau"
+ },
+ {
+  "name": "Sponsors",
+  "type": "automated",
+  "cost": 6,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 2 steps.",
+  "score": 64,
+  "when_to_pick": "Strong gen 1-2 stabilizer, especially with Earth synergy or when your opener lacks clean economy. Skip after gen 4.",
+  "reasoning": "Basic economy card, but SHOTW highlights that it overperforms from the opening hand because it stabilizes awkward starts while carrying an Earth tag. 2 MC-prod for 9 total is not flashy, yet it is one"
+ },
+ {
+  "name": "Standard Technology",
+  "type": "active",
+  "cost": 6,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "plate item Standard projects symbol megacredits item Effect: After you pay for a standard project, except selling patents, you gain 3 M€. effect root",
+  "score": 74,
+  "when_to_pick": "When planning to do 3+ standard projects, especially with Credicor or an EcoLine rush that expects early SP oceans or temperature. Science tag always useful.",
+  "reasoning": "Strong with Credicor ('Creditech' archetype), enabling cheap greeneries and cities. icehawk84 notes the science tag is often more relevant than the effect. Solid in any game where you plan to do stand"
+ },
+ {
+  "name": "Tardigrades",
+  "type": "active",
+  "cost": 4,
+  "tags": [
+   "Microbe"
+  ],
+  "vp": "1/4 resources",
+  "requirements": null,
+  "description": "symbol symbol -> resource item Microbe Action: Add 1 microbe to this card. effect text item 1 VP per 4 Microbes on this card. XS root",
+  "score": 48,
+  "when_to_pick": "Gen 1 filler when you have nothing better. Cheap tag for Ecologist/Diversifier. Never a priority pick.",
+  "reasoning": "Krazyguy75 nails it: the biggest downside is opportunity cost of drawing a better card. 2 VP for 7 MC is acceptable, but only with 8+ gens of accumulation. 1/4 VP rate is terrible for animal placement"
+ },
+ {
+  "name": "Technology Demonstration",
+  "type": "event",
+  "cost": 5,
+  "tags": [
+   "Science",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Draw two cards.",
+  "score": 70,
+  "when_to_pick": "When you have space/event rebates or science tag triggers. Good engine card. Even without synergies, 8 MC for 2 cards is acceptable.",
+  "reasoning": "Mediocre standalone but becomes excellent with synergies. Triple tag value (Science, Space, Event) makes it work with IC, Point Luna, Mars University, Olympus Conference. shai_aus confirms 'consistent"
+ },
+ {
+  "name": "Terraforming Ganymede",
+  "type": "automated",
+  "cost": 33,
+  "tags": [
+   "Jovian",
+   "Space"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "Raise your TR 1 step for each Jovian tag you have, including this.",
+  "score": 85,
+  "when_to_pick": "Draft when 3+ Jovian tags are in your line, or to deny opponents. Play last gen for maximum tag count. Ti-payable makes it affordable.",
+  "reasoning": "The Jovian capstone. Per yads12: swingiest card, must hate-draft. Per Enter_Octopus: can cause 15+ point swing, always draft even without Jovians. Per Chance_Breakfast4848: only needs 2 other Jovians "
+ },
+ {
+  "name": "Titanium Mine",
+  "type": "automated",
+  "cost": 7,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your titanium production 1 step.",
+  "score": 66,
+  "when_to_pick": "Best gen 1-2 when you already have a colony plan, titanium sink, or early trade. Much less exciting after gen 3.",
+  "reasoning": "Boring, reliable gen 1 economy. SHOTW treats it as a premium opening keep whenever Colonies, trade, or early space spending are in the picture. Building tag is a small bonus and the card still has low"
+ },
+ {
+  "name": "Toll Station",
+  "type": "automated",
+  "cost": 12,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 1 step for each space tag your OPPONENTS have.",
+  "score": 64,
+  "when_to_pick": "Gen 1-2 if opponents have 3+ space tags. Late game for Banker award. In 3P, usually a mid-tier card.",
+  "reasoning": "Highly variable. benbever does detailed analysis showing it needs 4+ opponent space tags gen 1 to compete with Acquired Company. In 3P with all expansions, that's uncommon early. Best value is as a la"
+ },
+ {
+  "name": "Trans-Neptune Probe",
+  "type": "automated",
+  "cost": 6,
+  "tags": [
+   "Science",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "",
+  "score": 64,
+  "when_to_pick": "When you need a science tag for requirements and have titanium to spend. Late game VP dump. Not a priority pick.",
+  "reasoning": "Boring but functional. icehawk84 notes it's 'a cheap tag to unlock science payoffs.' FieldMouse007 calls it 'overpriced 1pt unless you have too much titanium.' The dual Science+Space tag is genuinely "
+ },
+ {
+  "name": "Tropical Resort",
+  "type": "automated",
+  "cost": 13,
+  "tags": [
+   "Building"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "Reduce your heat production 2 steps and increase your M€ production 3 steps.",
+  "score": 56,
+  "when_to_pick": "Last gen or second to last when temperature is maxed and you have heat-prod to sacrifice. Steel-payable makes it cheaper.",
+  "reasoning": "Primarily a late-game VP card when temperature is maxed and heat production is worthless. benbever confirms 'definitely a late game card - use when you can't use your heat anymore.' 16 MC for 2 VP is "
+ },
+ {
+  "name": "Vesta Shipyard",
+  "type": "automated",
+  "cost": 15,
+  "tags": [
+   "Jovian",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Increase your titanium production 1 step.",
+  "score": 68,
+  "when_to_pick": "With Jovian strategy or Saturn Systems. Also fine as early ti-prod + Jovian tag. Skip if no Jovian synergy.",
+  "reasoning": "benbever calculates you pay only 1 MC for the Jovian tag over the ti-prod + VP. With Saturn Systems, it's excellent (+1 MC-prod too). The Jovian tag adds multiplier potential. shai_aus says 'decent.' "
+ },
+ {
+  "name": "Viral Enhancers",
+  "type": "active",
+  "cost": 9,
+  "tags": [
+   "Science",
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "tag item plant symbol tag item microbe symbol tag item animal symbol symbol plants item symbol resource item Microbe symbol symbol resource item Animal symbol Effect: When you play a plant, microbe, or an animal tag, inc",
+  "score": 82,
+  "when_to_pick": "Almost always. Draft priority. Science tag alone justifies early play. Effect compounds beautifully with bio engine.",
+  "reasoning": "icehawk84 says 'S tier card.' shai_aus says 'one of the best combo cards.' benbever details how just 3 bio tags + 1 animal card already pays it back. The Science+Microbe dual tag is excellent. Every p"
+ },
+ {
+  "name": "Virus",
+  "type": "event",
+  "cost": 1,
+  "tags": [
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Remove up to 2 animals or 5 plants from any player.",
+  "score": 76,
+  "when_to_pick": "Draft when opponent has animal VP engine (Birds, Fish, Predators). Even without targets, cheap Microbe tag has value. Best held for late-game animal denial.",
+  "reasoning": "Per COTD: 'very strong attack card, only 1 MC + 3 MC card cost'. С free draw — можно сыграть бесплатно. Опытные игроки: 'good in 2P, less so in higher players' — но removing 2 animals = denying ~10 VP"
+ },
+ {
+  "name": "Saturn Systems",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Jovian"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 1 titanium production and 42 M€.",
+  "score": 72,
+  "when_to_pick": "Jovian карты в руке и ti-prod prelude. Лучше с меньшим количеством игроков. Still passable only if there isn't a clearly stronger rush line competing for the corp slot.",
+  "reasoning": "Decent corp. Per Agreeable_Hat: performs better than expected, solid on tfmstats by Elo gain. Per mvBommel1974: titanium prod always useful, especially with Colonies. Jovian tag = gamble, but multiple"
+ },
+ {
+  "name": "Teractor",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 60 M€.",
+  "score": 78,
+  "when_to_pick": "Почти всегда safe pick. Особенно с Earth тегами в руке.",
+  "reasoning": "60 MC стартовый капитал = огромная flexibility gen 1. Earth tag discount стекается с Earth Office. По COTD: shai_aus — 'slightly below Credicor', но всё равно great. Safe, reliable, strong."
+ },
+ {
+  "name": "Weather Balloons",
+  "type": "active",
+  "cost": 11,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Draw 1 card.",
+  "score": 61,
+  "when_to_pick": "When you need a Science tag and the card draw + floater action add marginal value. Skip without Science tag synergies -- too expensive for the raw value.",
+  "reasoning": "Science tag + floater-based card draw/MC for 14 MC. Per COTD: 'good mid-range science tag' with load/spend decisions. Like Martian Rails every other turn, no steel dump, but with card draw + science t"
+ },
+ {
+  "name": "Airliners",
+  "type": "automated",
+  "cost": 11,
+  "tags": [],
+  "vp": "1",
+  "requirements": "{'floaters': 3, 'count': 3}",
+  "description": "Requires that you have 3 floaters. Increase your M€ production 2 steps. Add 2 floaters to ANY card.",
+  "score": 58,
+  "when_to_pick": "Only with active floater engine providing 3+ floaters. The MC-prod + VP is decent payoff but no tags and requirement gate limit it. Skip without floater infrastructure.",
+  "reasoning": "2 MC-prod + 2 floaters + VP for 14 MC, but 3 floater req + no tags. Per COTD: 'IF good target, IF 3 floaters, IF early — worth 20-25 MC.' But circular dependency is the issue. 'Like most floater cards"
+ },
+ {
+  "name": "Air Raid",
+  "type": "event",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Requires that you lose 1 floater. Steal 5 M€ from any player.",
+  "score": 38,
+  "when_to_pick": "Only if drawn for free, have spare floaters, and can target the leader. Low priority in draft.",
+  "reasoning": "No-tag penalty and take-that pattern in 3P makes this weak. Net gain ~1-2 MC after floater cost. Per COTD community, experienced players agree it's mainly a 'free draw' card — never worth drafting, on"
+ },
+ {
+  "name": "Atmo Collectors",
+  "type": "active",
+  "cost": 15,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Add 2 floaters to ANY card.",
+  "score": 64,
+  "when_to_pick": "Pick higher with Colonies, Titan access, or any floater support. Also reasonable early if your hand wants flexible energy/heat/MC-prod fixing. Skip mainly when the hand is already clean and tempo-effi",
+  "reasoning": "55 felt low. The card is clunky and tagless, but it does something rare: converts floaters into whichever economic axis matters right now. In Colonies that often means early energy for trading; in slo"
+ },
+ {
+  "name": "Community Services",
+  "type": "automated",
+  "cost": 13,
+  "tags": [],
+  "vp": "1",
+  "requirements": null,
+  "description": "Increase your M€ production 1 step per CARD WITH NO TAGS, including this.",
+  "score": 62,
+  "when_to_pick": "При 2+ no-tag картах в табло/руке. С Sagitta — приоритетный пик. Не стоит специально строить вокруг, но часто набирается естественно.",
+  "reasoning": "Per COTD: 'at 16 cost, no tag, requires 4-5 MC-prod to justify' (played as Manutech once). Опытные игроки: 'often useless — production too little, too expensive, or too late'. Работает с tagless Prelu"
+ },
+ {
+  "name": "Conscription",
+  "type": "event",
+  "cost": 5,
+  "tags": [
+   "Earth"
+  ],
+  "vp": "-1",
+  "requirements": "2 Earth tags",
+  "description": "Requires 2 Earth tags. The next card you play this generation costs 16 M€ less.",
+  "score": 67,
+  "when_to_pick": "When you have 2 Earth tags and a 16+ MC card to play. Almost always worth it gens 1-6, and sometimes a strong denial pick if a rival Earth engine is about to spike.",
+  "reasoning": "Like Indentured Workers on steroids — net 8 MC for -1 VP. Per COTD community, 'better Indentured Workers, and Indentured Workers is already really good.' Playing economy cards a turn earlier can be ga"
+ },
+ {
+  "name": "Corona Extractor",
+  "type": "automated",
+  "cost": 10,
+  "tags": [
+   "Space",
+   "Power"
+  ],
+  "vp": null,
+  "requirements": "4 Science tags",
+  "description": "Requires 4 science tags. Increase your energy production 4 steps.",
+  "score": 65,
+  "when_to_pick": "When you have 4 Science tags and need energy, especially with Colonies. Ti-payable is a plus.",
+  "reasoning": "Incredible energy production rate (3.25 MC per energy-prod) but locked behind 4 Science tags. The poor man's Quantum Extractor -- cheaper but lacks the -2 space discount and science tag. Ti-payable vi"
+ },
+ {
+  "name": "Cryo-Sleep",
+  "type": "active",
+  "cost": 10,
+  "tags": [
+   "Science"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "trade item symbol trade_discount item Effect: When you trade, you pay 1 less resource for it. effect root",
+  "score": 64,
+  "when_to_pick": "When playing Colonies and need a Science tag. Better with 2+ trade fleets. Skip without active colony trading.",
+  "reasoning": "Decent Colonies support card. The -1 trade cost effectively saves 1 energy per trade, which is ~7.5 MC value per gen. With 2 trade fleets the saving doubles. Science tag + VP add ~8-10 MC. At 13 MC to"
+ },
+ {
+  "name": "Earth Elevator",
+  "type": "automated",
+  "cost": 43,
+  "tags": [
+   "Space",
+   "Earth"
+  ],
+  "vp": "4",
+  "requirements": null,
+  "description": "Increase your titanium production 3 steps.",
+  "score": 64,
+  "when_to_pick": "Gen 2-4 with Phobolog or substantial titanium reserves. Skip if you can't play it before gen 5.",
+  "reasoning": "Massive investment card with awkward timing. Production + VP hybrid means it's suboptimal both early (VP wasted) and late (production wasted). Per community consensus, the 43 MC cost is brutally expen"
+ },
+ {
+  "name": "Ecology Research",
+  "type": "automated",
+  "cost": 21,
+  "tags": [
+   "Science",
+   "Plant",
+   "Animal",
+   "Microbe"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Increase your plant production 1 step for each colony you own. Add 1 animal to ANOTHER card and 2 microbes to ANOTHER card.",
+  "score": 67,
+  "when_to_pick": "Mid game with 1-2 colonies and bio-tag targets for the animal and microbes. Excellent for Diversifier snipes.",
+  "reasoning": "Quad-tag monster with strong bio synergy potential. Per icehawk84, with bio combos this can be a huge 5+ point bomb. The 4 unique tags can steal Diversifier and enable Ecologist. Per community, the pl"
+ },
+ {
+  "name": "Floater Leasing",
+  "type": "automated",
+  "cost": 3,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 1 step PER 3 floaters you have.",
+  "score": 38,
+  "when_to_pick": "Only when you already have 9+ floaters stored and 3+ gens remaining. Almost never draft this.",
+  "reasoning": "Almost always garbage. Per shai_aus, 'mostly garbage.' Per FieldMouse007, in many games it sucks. The problem: you rarely have many floaters stored (most floater cards spend them), and when you do it'"
+ },
+ {
+  "name": "Floater Prototypes",
+  "type": "event",
+  "cost": 2,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Add two floaters to ANOTHER card.",
+  "score": 63,
+  "when_to_pick": "When you have a strong floater target and need a cheap Science tag trigger. Low priority without targets.",
+  "reasoning": "Cheap and efficient when you have a good floater target. 2 floaters typically translate to 1 TR or 1 VP worth ~5-7 MC, making this 5 MC for ~5-7 MC value — a small profit. The Science tag triggers Mar"
+ },
+ {
+  "name": "Floater Technology",
+  "type": "active",
+  "cost": 7,
+  "tags": [
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "symbol symbol -> resource item Floater symbol Action: Add 1 floater to ANOTHER card. effect root",
+  "score": 61,
+  "when_to_pick": "Gen 1-4 with at least one floater card in play. Good cheap Science tag for Warp Drive or Anti-Gravity requirements.",
+  "reasoning": "An affordable Science tag with floater dispensing action. Per benbever, the floater can translate to half a card, half a TR, or half a VP per gen depending on target. At 10 MC total with the Science t"
+ },
+ {
+  "name": "Galilean Waystation",
+  "type": "automated",
+  "cost": 15,
+  "tags": [
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Increase your M€ production 1 step for every Jovian tag in play.",
+  "score": 66,
+  "when_to_pick": "Mid game with 3+ total Jovian tags in play. Good for Jovian tag collection strategies.",
+  "reasoning": "Solid Jovian support card that benefits from all players' Jovian tags. In 3P with all expansions, typically 2-3 Jovian tags in play by mid-game for 2-3 MC-prod. The Jovian+Space dual tag is excellent "
+ }
+]

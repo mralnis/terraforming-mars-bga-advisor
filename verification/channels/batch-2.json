@@ -1,0 +1,665 @@
+[
+ {
+  "name": "GHG Producing Bacteria",
+  "type": "active",
+  "cost": 8,
+  "tags": [
+   "Science",
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": "4% oxygen",
+  "description": "Requires 4% oxygen.",
+  "score": 70,
+  "when_to_pick": "Gen 1-3 when temperature still has room and you have or expect microbe feeders.",
+  "reasoning": "4% O2 req is light. 11 MC cost, 2 temp raises over game breaks even. Per COTD: 'best microbe card in base game' alongside Psychrophiles. Temperature usually last (~90% games), plenty of time. With Ext"
+ },
+ {
+  "name": "Giant Ice Asteroid",
+  "type": "event",
+  "cost": 36,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise temperature 2 steps and place 2 ocean tiles. Remove up to 6 plants from any player.",
+  "score": 84,
+  "when_to_pick": "Almost always when seen. Especially powerful when ocean placement bonuses and temperature bonuses are available.",
+  "reasoning": "One of the best space events — massively efficient terraforming in a single action. 4 TR for 39 MC = 9.75 MC per TR, which is good value. The 2 oceans provide placement bonuses and trigger ocean requi"
+ },
+ {
+  "name": "Giant Space Mirror",
+  "type": "automated",
+  "cost": 17,
+  "tags": [
+   "Power",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your energy production 3 steps.",
+  "score": 64,
+  "when_to_pick": "Gen 1-2 with titanium to pay and immediate need for 3 energy (Colonies, multiple energy-dependent cards).",
+  "reasoning": "Overpriced energy production. 20 MC for 3 energy-prod is better per-unit than SP Power Plant but the bulk cost is painful. Per benbever in other COTD threads, it's rarely worth playing unless you can "
+ },
+ {
+  "name": "Grass",
+  "type": "automated",
+  "cost": 11,
+  "tags": [
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": "-16°C",
+  "description": "Requires -16° C or warmer. Increase your plant production 1 step. Gain 3 plants.",
+  "score": 62,
+  "when_to_pick": "Gen 1-3 with plant synergy and a path to early greeneries. Not worth keeping for late game.",
+  "reasoning": "11 MC for 1 plant-prod + 3 plants + Plant tag. Mild req -16C. 3 plants immediate = almost half a greenery. Plant tag feeds Insects (+1 plant-prod), Viral Enhancers, Ecology Research. 11 MC/plant-prod "
+ },
+ {
+  "name": "Great Dam",
+  "type": "automated",
+  "cost": 12,
+  "tags": [
+   "Power",
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": "4 oceans",
+  "description": "Requires 4 ocean tiles. Increase your energy production 2 steps.",
+  "score": 64,
+  "when_to_pick": "Mid game with 4+ oceans and need for energy production. Good steel dump with tags and VP.",
+  "reasoning": "Solid energy production with VP bonus, but the 4 ocean requirement limits timing. By the time 4 oceans are down, you're in mid-game where energy production is worth less (unless for Colonies). The 1 V"
+ },
+ {
+  "name": "Greenhouses",
+  "type": "automated",
+  "cost": 6,
+  "tags": [
+   "Plant",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 1 plant for each city tile in play.",
+  "score": 75,
+  "when_to_pick": "Late game with 5+ cities for a final plant burst toward greenery conversion. Low priority otherwise.",
+  "reasoning": "Expert-verified late-game powerhouse. Gets 1 plant per ALL cities including space cities — typically 8-10 plants in last gen = 1-2 greenery for just 6 MC (steel payable). Hold until last generation fo"
+ },
+ {
+  "name": "Heather",
+  "type": "automated",
+  "cost": 6,
+  "tags": [
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": "-14°C",
+  "description": "Requires -14 C° or warmer. Increase your plant production 1 step. Gain 1 plant.",
+  "score": 66,
+  "when_to_pick": "When building plant engine and need cheap plant tags. Don't prioritize in draft unless plant synergies are strong.",
+  "reasoning": "Decent plant production card. -14C requirement means playable early-mid game. Plant tag valuable for NRA/Insects/Ecologist. Per COTD community, it's 'fine but underwhelming' — Bushes offers much more "
+ },
+ {
+  "name": "Heat Trappers",
+  "type": "automated",
+  "cost": 6,
+  "tags": [
+   "Power",
+   "Building"
+  ],
+  "vp": "-1",
+  "requirements": null,
+  "description": "Decrease any heat production 2 steps and increase your energy production 1 step.",
+  "score": 49,
+  "when_to_pick": "Only in 2P or if one opponent is running away with the game via heat production and you must slow them specifically.",
+  "reasoning": "Classic take-that в 3P. Per COTD: 'most brutal attack card in the game, wipes ~12 MC of value'. Опытные игроки отмечают Robotic Workforce combo — повторный steal devastating. В 2P сильная карта (good "
+ },
+ {
+  "name": "Herbivores",
+  "type": "active",
+  "cost": 12,
+  "tags": [
+   "Animal"
+  ],
+  "vp": "1/2 resources",
+  "requirements": "8% oxygen",
+  "description": "Requires 8% oxygen. +1 animal to this card. -1 any plant production left",
+  "score": 58,
+  "when_to_pick": "When you need an animal tag and can't find Birds/Fish/Livestock. Better in plant-heavy metagames where many greeneries are placed.",
+  "reasoning": "Per COTD: 'underestimated card, even late if you have plants should be better than 1VP animals'. Опытные игроки: combo с Meat Industry + Excentric, Viral Enhancers, Eco Zone. Oxygen 8% — mid-game, мож"
+ },
+ {
+  "name": "Ice Asteroid",
+  "type": "event",
+  "cost": 23,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place 2 ocean tiles.",
+  "score": 75,
+  "when_to_pick": "Early-mid game when ocean spots are still good. Excellent titanium dump. Great with Arctic Algae or ocean synergies.",
+  "reasoning": "Solid space event placing 2 oceans. Ti-payable with good placement bonuses. Per COTD community, best use case is converting 4 plants to 8 via ocean adjacency, then greenery with second action. Arctic "
+ },
+ {
+  "name": "Ice Cap Melting",
+  "type": "event",
+  "cost": 5,
+  "tags": [],
+  "vp": null,
+  "requirements": "2°C",
+  "description": "Requires +2 C or warmer. Place 1 ocean tile.",
+  "score": 35,
+  "when_to_pick": "Only late game when you see it's legal and oceans remain. Never draft early. Never hold in opening hand.",
+  "reasoning": "Almost never playable. +2C req means temp near max, oceans usually gone by then. No tags. Per COTD: cheapest ocean when it works but playable maybe 5% of games. Only draft late when you confirm oceans"
+ },
+ {
+  "name": "Immigrant City",
+  "type": "active",
+  "cost": 13,
+  "tags": [
+   "City",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your energy production 1 step and decrease your M€ production 2 steps. Place a city tile.",
+  "score": 58,
+  "when_to_pick": "Late game as a cheap city tile and steel dump. Do NOT play early in 3P despite the temptation.",
+  "reasoning": "City + ongoing: +1 MC-prod per city placed (all players). In 3P = 4-6 cities over game = 4-6 MC-prod. Building tag = steel payable. Energy cost -1 is real but city placement + ongoing = strong. With T"
+ },
+ {
+  "name": "Immigration Shuttles",
+  "type": "automated",
+  "cost": 31,
+  "tags": [
+   "Earth",
+   "Space"
+  ],
+  "vp": "1/3 cities",
+  "requirements": null,
+  "description": "Increase your M€ production 5 steps.",
+  "score": 40,
+  "when_to_pick": "When swimming in titanium with no other space cards to play. Decent Phobolog titanium dump.",
+  "reasoning": "Per COTD: overwhelming D-tier consensus. icehawk84: D-tier at best, maybe F. shai_aus: too expensive. Multiple commenters: D tier, very bad. The one positive comment was downvoted. D40 reflects niche "
+ },
+ {
+  "name": "Imported GHG",
+  "type": "event",
+  "cost": 7,
+  "tags": [
+   "Earth",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your heat production 1 step and gain 3 heat.",
+  "score": 59,
+  "when_to_pick": "When you have 2+ discount/rebate cards active. With Optimal Aerobraking, almost always play. Without discounts, it's marginal.",
+  "reasoning": "Marginal value alone but excellent with discount infrastructure. Per COTD community, the triple-tag (Earth/Space/Event) is the real value — with even one discount it becomes good, with two it's great."
+ },
+ {
+  "name": "Imported Hydrogen",
+  "type": "event",
+  "cost": 16,
+  "tags": [
+   "Earth",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 3 plants, or add 3 microbes or 2 animals to ANOTHER card. Place an ocean tile.",
+  "score": 80,
+  "when_to_pick": "Anytime you have animal or microbe placement targets. Even without targets, the ocean + plants + double tag makes it strong gen 1-4. Ti-payable makes it a Space engine staple.",
+  "reasoning": "Triple-function card with ocean + flexible resources. Ti-payable drops effective cost to ~13-15 MC. Per COTD community, 'the three tags are the most discounted/rebated — I've played this card for free"
+ },
+ {
+  "name": "Imported Nitrogen",
+  "type": "event",
+  "cost": 23,
+  "tags": [
+   "Earth",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise your TR 1 step and gain 4 plants. Add 3 microbes to ANOTHER card and 2 animals to ANOTHER card.",
+  "score": 80,
+  "when_to_pick": "High draft priority. Keep from opening hand if you expect to find animal/microbe targets. Best with 1VP animal card.",
+  "reasoning": "Per COTD: 'the grand finale to plant/animal strategy, could be worth 6 points'. Earth+Space+Event tags = maximum discounts. С 1VP animal = 23+3 MC за 5+ VP. Опытные игроки: 'tricky to get full value, "
+ },
+ {
+  "name": "Import of Advanced GHG",
+  "type": "event",
+  "cost": 9,
+  "tags": [
+   "Earth",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your heat production 2 steps.",
+  "score": 61,
+  "when_to_pick": "Gen 1-2 when going for heat terraforming and have discount infrastructure. With Optimal Aerobraking it's excellent.",
+  "reasoning": "Fair-priced heat production card that improves dramatically with discounts. Earth+Space event tags open up the most discount possibilities in the game (Optimal Aerobraking, Media Group, IC, Earth Offi"
+ },
+ {
+  "name": "Industrial Microbes",
+  "type": "automated",
+  "cost": 12,
+  "tags": [
+   "Microbe",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your energy production and your steel production 1 step each.",
+  "score": 66,
+  "when_to_pick": "Gen 1-2 when you need energy production and have steel to spend. Good Electro Catapult enabler.",
+  "reasoning": "Per COTD: 'perfect card in combination with Electro Catapult!' Mine + Power Plant в одной карте с bonus Microbe tag. 12 MC vs 14 MC (раздельно) = 2 MC savings + 1 card slot + microbe tag. Опытные игро"
+ },
+ {
+  "name": "Insects",
+  "type": "automated",
+  "cost": 9,
+  "tags": [
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": "6% oxygen",
+  "description": "Requires 6% oxygen. Increase your plant production 1 step for each plant tag you have.",
+  "score": 88,
+  "when_to_pick": "Always high draft priority. Keep from opening hand with ANY plant tags. Even hate-draft to deny plant players. Top 10 card in base+prelude.",
+  "reasoning": "Per COTD: 'one of the best cards in the game, especially base+preludes'. Community unanimous. Опытные игроки: 'people severely underestimate this card, in base game biological tags = plants'. Приорите"
+ },
+ {
+  "name": "Insulation",
+  "type": "automated",
+  "cost": 2,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your heat production any number of steps and increase your M€ production the same number of steps.",
+  "score": 40,
+  "when_to_pick": "Only when Banker award is funded and this could swing it, or temp is maxed and you have 3+ heat prod to convert.",
+  "reasoning": "Per COTD: 'pretty plain card — useful to swing Banker but rarely used'. Два use cases: 1) swing Banker award, 2) heat maxed early + excess heat-prod. Опытные игроки: с Manutech — play last turn для pr"
+ },
+ {
+  "name": "Ironworks",
+  "type": "active",
+  "cost": 11,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "energy item symbol -> steel item oxygen item Action: Spend 4 energy to gain 1 steel and raise oxygen 1 step. effect root",
+  "score": 55,
+  "when_to_pick": "When you have 4+ energy production with no colony trading needs and want to compete on oxygen track. Mostly a 2P card.",
+  "reasoning": "Niche oxygen bumper that requires significant energy investment. In 3P with all expansions, energy is often needed for colony trading, making the 4 energy per use expensive. Need 4+ bumps to break eve"
+ },
+ {
+  "name": "Kelp Farming",
+  "type": "automated",
+  "cost": 17,
+  "tags": [
+   "Plant"
+  ],
+  "vp": "1",
+  "requirements": "6 oceans",
+  "description": "Requires 6 ocean tiles. Increase your M€ production 2 steps and your plant production 3 steps. Gain 2 plants.",
+  "score": 87,
+  "when_to_pick": "Always keep from opening hand. Top draft priority. With Ecology Experts or a fast ocean shell it often becomes the entire game plan.",
+  "reasoning": "Per COTD: 'arguably the best plant production card in the game, insane value for money'. 'Game defining card that can carry a plant strategy single-handedly'. Опытные игроки: 6 oceans достижимы рано, "
+ },
+ {
+  "name": "Lake Marineris",
+  "type": "automated",
+  "cost": 18,
+  "tags": [],
+  "vp": "2",
+  "requirements": "0°C",
+  "description": "Requires 0° C or warmer. Place 2 ocean tiles.",
+  "score": 67,
+  "when_to_pick": "Speculate in opening hand if you plan to rush temperature. Draft mid-game only if oceans remain near 0C temp.",
+  "reasoning": "When played for full value (both oceans), it's one of the best cards in the game — per COTD community, 'what's not to like?' at 21 MC for 4 VP + 2 ocean bonuses. But the 0C requirement + needing 2 oce"
+ },
+ {
+  "name": "Large Convoy",
+  "type": "event",
+  "cost": 36,
+  "tags": [
+   "Earth",
+   "Space"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "Place an ocean tile and draw 2 cards. Gain 5 plants or add 4 animals to ANOTHER card.",
+  "score": 82,
+  "when_to_pick": "Keep from opening hand if you expect to find 1VP animal. High draft priority. Excellent last-gen titanium dump.",
+  "reasoning": "Premier late-game point bomb. Per COTD: 'one of the top 5 scoring cards in base game'. С 1VP animal card = 7 VP + 2 карты + ocean bonus. Earth+Space+Event теги = максимум дискаунтов. Опытные игроки от"
+ },
+ {
+  "name": "Lava Flows",
+  "type": "event",
+  "cost": 18,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise temperature 2 steps and place this tile ON EITHER THARSIS THOLUS, ASCRAEUS MONS, PAVONIS MONS OR ARSIA MONS.",
+  "score": 65,
+  "when_to_pick": "When volcanic placement locations align with your tiles and you need TR. Skip if no adjacency value. Generally overpriced -- prefer cheaper TR sources.",
+  "reasoning": "2 TR for 21 MC is below-average rate (10.5 MC per TR vs standard 7-7.4 MC). The volcanic tile placement provides some adjacency value but the restricted placement locations (Tharsis Tholus, Ascraeus M"
+ },
+ {
+  "name": "Lichen",
+  "type": "automated",
+  "cost": 7,
+  "tags": [
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": "-24°C",
+  "description": "Requires -24 C or warmer. Increase your plant production 1 step.",
+  "score": 63,
+  "when_to_pick": "When building plant strategy and need cheap plant tags. Draft priority goes up with NRA/Insects in hand.",
+  "reasoning": "Per COTD: 'pretty good, starts making plants around the time you'd want to'. Baseline для plant tags — unremarkable alone но с Insects, Eco Zone, NRA = good. Опытные игроки: 'any single plant producti"
+ },
+ {
+  "name": "Livestock",
+  "type": "active",
+  "cost": 13,
+  "tags": [
+   "Animal"
+  ],
+  "vp": "1/resource",
+  "requirements": "9% oxygen",
+  "description": "Requires 9% oxygen. Decrease your plant production 1 step and increase your M€ production 2 steps left",
+  "score": 73,
+  "when_to_pick": "Mid-late game when you need a 1VP animal target. Slightly weaker than Birds/Fish but still strong. Keep if you have animal placement cards.",
+  "reasoning": "Per COTD: 'it's a 1VP/animal card, value mostly determined by extra animals you can place'. -1 plant-prod self-attack — хуже Birds' opponent attack. 2 MC-prod компенсирует. Опытные игроки: 'enables pl"
+ },
+ {
+  "name": "Local Heat Trapping",
+  "type": "event",
+  "cost": 1,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Spend 5 heat to gain either 4 plants, or to add 2 animals to ANOTHER card.",
+  "score": 63,
+  "when_to_pick": "When you have surplus heat and a 1VP animal card. Good as a free draw. Don't draft early without heat production.",
+  "reasoning": "Efficient conversion of surplus heat into plants or animal VP. Per COTD community, the animal mode (2 penguins!) is the main draw. Experienced players note it's a nice late-game surplus heat dump. No "
+ },
+ {
+  "name": "Lunar Beam",
+  "type": "automated",
+  "cost": 13,
+  "tags": [
+   "Earth",
+   "Power"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your M€ production 2 steps and increase your heat production and energy production 2 steps each.",
+  "score": 65,
+  "when_to_pick": "Gen 1-2 when going heat rush AND need energy for colonies/other cards. Better with Earth tag discounts.",
+  "reasoning": "Fair-priced but painful due to -2 MC-prod. Per COTD community, 'much better than newer players think.' Heat and energy are both far more valuable than MC in many situations. Earth tag is a nice bonus."
+ },
+ {
+  "name": "Magnetic Field Dome",
+  "type": "automated",
+  "cost": 5,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your energy production 2 steps and increase your plant production 1 step. Raise your TR 1 step.",
+  "score": 52,
+  "when_to_pick": "Last gen with 2+ unused energy production and steel to dump. Otherwise skip. Never play early/mid game.",
+  "reasoning": "Overcosted production card. Per COTD community, 'never a keep, sometimes playable last gen.' The 2 energy production cost is steep for just 1 TR + 1 plant-prod return. Experienced players unanimously "
+ },
+ {
+  "name": "Magnetic Field Generators",
+  "type": "automated",
+  "cost": 20,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your energy production 4 steps and increase your plant production 2 steps. Raise your TR 3 steps.",
+  "score": 42,
+  "when_to_pick": "Last gen with 4+ unused energy production and steel. Otherwise completely skip. One of the most overcosted cards in the game.",
+  "reasoning": "Per COTD: 'real expensive but ok for endgame points if you have energy with no other use'. Опытные игроки: 'good last-gen steel and power sink, and not much else'. 4 energy req почти невозможен без sc"
+ },
+ {
+  "name": "Mangrove",
+  "type": "automated",
+  "cost": 12,
+  "tags": [
+   "Plant"
+  ],
+  "vp": "1",
+  "requirements": "4°C",
+  "description": "Requires +4 C or warmer. Place a greenery tile ON AN AREA RESERVED FOR OCEAN and raise oxygen 1 step. Disregard normal placement restrictions for this.",
+  "score": 78,
+  "when_to_pick": "Almost always draft if offered. Best in mid-to-late game but worth speculating on early. Even without O2 raise, 1 VP + greenery for 15 MC is solid.",
+  "reasoning": "One of the best VP cards in the game. Cheap greenery on ocean space with 1 VP printed. If oxygen isn't maxed, you get TR + VP + placement bonuses for very little. The 4C requirement is easy to meet. C"
+ },
+ {
+  "name": "Martian Rails",
+  "type": "active",
+  "cost": 13,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "energy item symbol -> megacredits item symbol city item symbol Action: Spend 1 energy to gain 1 M€ for each city tile ON MARS. effect root",
+  "score": 40,
+  "when_to_pick": "Almost never. Only if the table is city-heavy and you have excess energy. Even then there are better options.",
+  "reasoning": "Too expensive, too slow. In 3P games, experienced players don't build many cities, so this rarely reaches 4-5 MC/action. The energy cost is real. COTD experts (shai_aus, ad_hocNC, Krazyguy75) all rate"
+ },
+ {
+  "name": "Methane From Titan",
+  "type": "automated",
+  "cost": 28,
+  "tags": [
+   "Jovian",
+   "Space"
+  ],
+  "vp": "2",
+  "requirements": "2% oxygen",
+  "description": "Requires 2% oxygen. Increase your heat production 2 steps and your plant production 2 steps.",
+  "score": 66,
+  "when_to_pick": "Gen 1-2 when O2 is already 2%+ and you have titanium. In explosive EcoLine rush openers, two greeneries by gen 2 can make this live faster than usual. Don't draft for Jovian tag alone.",
+  "reasoning": "Good value on paper but internally conflicted. Plant+heat production wants early game rush; Jovian tag + VP want long engine games. Futuralis's top comment (30 upvotes) nails this anti-synergy. Best p"
+ },
+ {
+  "name": "Micro-Mills",
+  "type": "automated",
+  "cost": 3,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your heat production 1 step.",
+  "score": 30,
+  "when_to_pick": "Almost never in draft. Play if drawn free and it gets your heat production to a multiple of 8. Generalist milestone edge case.",
+  "reasoning": "6 MC total (0 cost + 3 draft + 3 buy) for 1 heat prod (~4 MC value gen 1). Net -2 MC. No tags = no synergy. Heat prod is weakest production. Per COTD: one of worst cards."
+ },
+ {
+  "name": "Mining Expedition",
+  "type": "event",
+  "cost": 12,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise oxygen 1 step. Remove 2 plants from any player. Gain 2 steel.",
+  "score": 55,
+  "when_to_pick": "To snatch O2 bonuses or end the game. Take-that in 3P is a real downside. Low priority in draft.",
+  "reasoning": "Take-that plant removal + O2 raise + steel gain. Per COTD community, it's a 'tempo card' — lets you increase oxygen when no one expects it, enabling oxygen track bonuses or preventing others from gett"
+ },
+ {
+  "name": "Mining Rights",
+  "type": "automated",
+  "cost": 9,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place this tile on an area with a steel or titanium placement bonus. Increase that production 1 step.",
+  "score": 67,
+  "when_to_pick": "Gen 1-3 on a titanium spot. Decent for teleporting across the map. Less valuable after gen 3.",
+  "reasoning": "Similar to Mining Area but doesn't require adjacency to your own tile -- just placement on a mineral spot. This gives flexibility and 'teleportation' value for spreading across the map. On titanium sp"
+ },
+ {
+  "name": "Mohole Area",
+  "type": "automated",
+  "cost": 20,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your heat production 4 steps. Place this tile ON AN AREA RESERVED FOR OCEAN.",
+  "score": 75,
+  "when_to_pick": "Gen 1-2 as terraforming anchor. Steel payable makes it very efficient. Late game it's too slow.",
+  "reasoning": "Best heat production card in the game. 4 heat-prod for 20 MC steel-payable is excellent. The tile on ocean space gives placement bonuses and map control. shai_aus, ad_hocNC, and icehawk84 all rate it "
+ },
+ {
+  "name": "Moss",
+  "type": "automated",
+  "cost": 4,
+  "tags": [
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": "3 oceans",
+  "description": "Requires 3 ocean tiles and that you lose 1 plant. Increase your plant production 1 step.",
+  "score": 61,
+  "when_to_pick": "Gen 2-4 when 3 oceans are out and you want plant production or a cheap plant tag.",
+  "reasoning": "Simple, cheap plant production with a useful Plant tag. The 3 ocean requirement is easy to meet by gen 2-3. Losing 1 plant is minor. shai_aus calls it perfectly fine mid-tier. The Plant tag is valuabl"
+ },
+ {
+  "name": "Natural Preserve",
+  "type": "automated",
+  "cost": 9,
+  "tags": [
+   "Science",
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": "Max 4% oxygen",
+  "description": "Oxygen must be 4% or less. Place this tile NEXT TO NO OTHER TILE. Increase your M€ production 1 step.",
+  "score": 71,
+  "when_to_pick": "Gen 1-2 when O2 is low. Excellent early for science tag, tile placement, and production. Dead card after 4% O2.",
+  "reasoning": "Underrated card with excellent tags (Science+Building), a tile for teleporting, VP, and some MC production. Max 4% O2 limits it to early game but that's when you want production anyway. icehawk84 rate"
+ },
+ {
+  "name": "Nitrite Reducing Bacteria",
+  "type": "active",
+  "cost": 11,
+  "tags": [
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Add 3 microbes to this card.",
+  "score": 42,
+  "when_to_pick": "Almost never. Only with multiple microbe-adding sources that make it produce TR faster.",
+  "reasoning": "Too slow and expensive. 14 MC upfront for something that generates 1 TR immediately then 1 TR every 3 actions. shai_aus repeatedly rates it poorly across multiple COTD threads. ad_hocNC calls it bad a"
+ },
+ {
+  "name": "Nitrogen-Rich Asteroid",
+  "type": "event",
+  "cost": 31,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise your terraforming rating 2 steps and temperature 1 step. Increase your plant production 1 step, or 4 steps if you have 3 plant tags.",
+  "score": 90,
+  "when_to_pick": "Always draft. With 2+ plant tags, start planning to meet the 3-tag threshold. Without plant tags, still decent for TR+temp+plant-prod.",
+  "reasoning": "One of the most powerful cards in the game when played with 3 plant tags. 4 plant production + 3 TR is game-winning if played gen 1-3. shai_aus's sarcastic 'absolutely terrible' comment (42 upvotes) r"
+ },
+ {
+  "name": "Nitrophilic Moss",
+  "type": "automated",
+  "cost": 8,
+  "tags": [
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": "3 oceans",
+  "description": "Requires 3 ocean tiles and that you lose 2 plants. Increase your plant production 2 steps.",
+  "score": 65,
+  "when_to_pick": "Gen 2-4 when 3 oceans are out and you have 2+ plants. Good plant tag for NRA/Insects synergy.",
+  "reasoning": "Good plant production card -- basically Algae at 2 MC less with easier requirement (3 oceans vs 5). The 2 plant cost is manageable. icehawk84 calls it underrated and the best of the mosses. Plant tag "
+ },
+ {
+  "name": "Noctis City",
+  "type": "automated",
+  "cost": 18,
+  "tags": [
+   "City",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your energy production 1 step and increase your M€ production 3 steps. Place a city tile ON THE RESERVED AREA, disregarding normal placement restrictions.",
+  "score": 65,
+  "when_to_pick": "On Tharsis: high priority, buy early and play late for surprise city. On other maps: mediocre, only with excess steel.",
+  "reasoning": "Map-dependent value. On Tharsis it's strong -- the reserved area often has great adjacency for greeneries and the 'surprise city' play catches opponents. icehawk84 rates it very strong on Tharsis, not"
+ },
+ {
+  "name": "Noctis Farming",
+  "type": "automated",
+  "cost": 10,
+  "tags": [
+   "Plant",
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": "-20°C",
+  "description": "Requires -20 C or warmer. Increase your M€ production 1 step and gain 2 plants.",
+  "score": 70,
+  "when_to_pick": "Gen 1-3 as NRA enabler + steel dump + VP. Best with Plant tag synergies. Skip after gen 4 when MC-prod has too few gens to compound.",
+  "reasoning": "Solid utility card with good tag combination. Plant+Building is the NRA (Nitrogen Rich Asteroid) enabler duo. 1 MC-prod + 2 plants + 1 VP is a nice triple benefit. Steel-payable via Building tag. The "
+ },
+ {
+  "name": "Nuclear Power",
+  "type": "automated",
+  "cost": 10,
+  "tags": [
+   "Power",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your M€ production 2 steps and increase your energy production 3 steps.",
+  "score": 61,
+  "when_to_pick": "When you specifically need 3 energy production. With colonies it's good in opening hand. Without specific energy needs, skip.",
+  "reasoning": "Good when you need lots of energy (colonies trading, oxygen bumpers, Physics Complex). The -2 MC-prod hurts early but matters less mid-late game. benbever notes mid-game effective cost is only ~19 MC "
+ },
+ {
+  "name": "Nuclear Zone",
+  "type": "automated",
+  "cost": 10,
+  "tags": [
+   "Earth"
+  ],
+  "vp": "-2",
+  "requirements": null,
+  "description": "Place this tile and raise temperature 2 steps.",
+  "score": 72,
+  "when_to_pick": "Almost always draft. Excellent for terraformers, good tile teleport for anyone. Even engine players can use it to deny opponents.",
+  "reasoning": "Extremely efficient temperature raise. shai_aus (34 upvotes) and icehawk84 (21 upvotes) both rate it highly. The -2 VP is offset by the 2 TR, making it roughly VP-neutral while giving income, placemen"
+ }
+]

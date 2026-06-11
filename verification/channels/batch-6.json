@@ -1,0 +1,661 @@
+[
+ {
+  "name": "Heavy Taxation",
+  "type": "automated",
+  "cost": 3,
+  "tags": [
+   "Earth"
+  ],
+  "vp": "-1",
+  "requirements": "2 Earth tags",
+  "description": "Requires 2 Earth tags. Increase your M€ production 2 steps, and gain 4 M€.",
+  "score": 67,
+  "when_to_pick": "Early-mid game when you have 2+ Earth tags. Great gen 1-4 play. Skip if fewer than 4 gens remaining.",
+  "reasoning": "Breaks even in one generation — unheard of for production cards. Per COTD: '6 MC net cost, 2 MC-prod pays for itself gen 1.' -1 VP easily offset by tempo. Earth tag fits Point Luna/Earth Office snowba"
+ },
+ {
+  "name": "Ice Moon Colony",
+  "type": "automated",
+  "cost": 23,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place 1 colony and 1 ocean tile.",
+  "score": 76,
+  "when_to_pick": "Early-mid game when good colony spots and ocean placement bonuses are available. Excellent titanium dump.",
+  "reasoning": "Ocean + colony at 9 MC discount over standard projects. Space tag = ti-payable. Per COTD: '9 MC savings, good value if you planned both anyway.' Comparable to Ice Asteroid efficiency. Early colonies w"
+ },
+ {
+  "name": "Impactor Swarm",
+  "type": "event",
+  "cost": 11,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": "2 Jovian tags",
+  "description": "Requires 2 Jovian tags. Gain 12 heat. Remove up to 2 plants from any player.",
+  "score": 55,
+  "when_to_pick": "Very rarely. Only when you're Jovian and need to convert titanium into temperature push in the final generation.",
+  "reasoning": "Per COTD: 'weird card — Jovian player doesn't want heat, TR rush player rarely has 2 Jovian'. Опытные игроки: единственный реальный use case — украсть Thermalist award. 1.5 temp steps за 11-14 MC comp"
+ },
+ {
+  "name": "Interplanetary Colony Ship",
+  "type": "event",
+  "cost": 12,
+  "tags": [
+   "Space",
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place a colony.",
+  "score": 73,
+  "when_to_pick": "Early-mid game when colony spots are still valuable. Great with event/space discounts. Standard titanium dump.",
+  "reasoning": "Solid colony placement at a discount. Even without synergies it's 2 MC cheaper than standard project. Earth+Space event tags open up massive discount possibilities. Titanium payable. In Colonies forma"
+ },
+ {
+  "name": "Jovian Lanterns",
+  "type": "active",
+  "cost": 20,
+  "tags": [
+   "Jovian"
+  ],
+  "vp": "1/2 resources",
+  "requirements": "1 Jovian tag",
+  "description": "Requires 1 Jovian tag. Increase your TR 1 step. Add 2 floaters to ANY card. left",
+  "score": 70,
+  "when_to_pick": "Mid game with Jovian/floater synergies. Good Titan colony target. Don't play without floater support.",
+  "reasoning": "Per COTD (2022): top 25-50 opening hand, powerhouse with Titan, 5/5 always keep. 2025: ok card, expensive, very decent long game. Much upgraded Security Fleet. Jovian tag valuable for multipliers. B75"
+ },
+ {
+  "name": "Jupiter Floating Station",
+  "type": "active",
+  "cost": 9,
+  "tags": [
+   "Jovian"
+  ],
+  "vp": "1",
+  "requirements": "3 Science tags",
+  "description": "Requires 3 science tags. left",
+  "score": 64,
+  "when_to_pick": "When you need a cheap Jovian tag for multipliers and have 3 Science tags. Or as a floater target for Titan colony.",
+  "reasoning": "Cheap Jovian tag is primary value. Per COTD: 'high draft priority' — versatile with growing MC prod, floater engine boost, stall action. Best as floater holder for Jovian Lanterns, Titan. 3 Science re"
+ },
+ {
+  "name": "Luna Governor",
+  "type": "automated",
+  "cost": 4,
+  "tags": [
+   "Earth",
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": "3 Earth tags",
+  "description": "Requires 3 Earth tags. Increase your M€ production 2 steps.",
+  "score": 64,
+  "when_to_pick": "Gen 1-3 with 2+ Earth tags already played and Point Luna/Teractor/Earth Office. The earlier the better for MC-prod compounding. Essential for Earth engine.",
+  "reasoning": "2 MC-prod за 7 MC = 3.5 MC/prod — best rate в игре. Double Earth tag premium. Per COTD: 'synergy so hard it feels dirty with Point Luna or Martian Zoo'. Опытные игроки: 'optimistically drafted and nev"
+ },
+ {
+  "name": "Lunar Exports",
+  "type": "automated",
+  "cost": 19,
+  "tags": [
+   "Earth",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your plant production 2 steps, or your M€ production 5 steps.",
+  "score": 74,
+  "when_to_pick": "Gen 1-3 for MC production mode. Ti-payable makes it excellent with prelude titanium. Almost always take MC over plants.",
+  "reasoning": "Solid production card with excellent flexibility. The MC-prod mode at 4.4 MC per production is above average for gen 1. Earth+Space tags provide synergy value and titanium payment option. The plant mo"
+ },
+ {
+  "name": "Lunar Mining",
+  "type": "automated",
+  "cost": 11,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your titanium production 1 step for every 2 Earth tags you have in play, including this.",
+  "score": 73,
+  "when_to_pick": "When you have 3+ Earth tags (including this). Hate-draft from Earth tag players. Excellent Point Luna/Teractor piece.",
+  "reasoning": "Extremely powerful with Earth tag density but weak without. Per COTD community, 'win-more card — just pick it if you have 3+ Earth tags.' Some groups house-banned it due to how oppressive it is with P"
+ },
+ {
+  "name": "Martian Zoo",
+  "type": "active",
+  "cost": 12,
+  "tags": [
+   "Animal",
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": "2 cities",
+  "description": "Requires 2 city tiles in play. left",
+  "score": 52,
+  "when_to_pick": "When 2 cities exist or you expect them soon and plan Earth tags. Higher pick on Colony or Builder boards where city count rises quickly; can also be a reasonable denial pick vs a strong Earth engine.",
+  "reasoning": "Accumulates animals via Earth tags (common). Action: 1 MC per animal = MC engine. 1 VP. Building tag for steel payment. With Point Luna / Earth-heavy strategy = 3-5 animals = 3-5 MC/gen passive. Large"
+ },
+ {
+  "name": "Market Manipulation",
+  "type": "event",
+  "cost": 1,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "text item Increase one colony tile track 1 step. Decrease another colony tile track 1 step. root",
+  "score": 55,
+  "when_to_pick": "When you have event/Earth tag rebates. Low draft priority otherwise. Good as a free draw.",
+  "reasoning": "Low impact but cheap. The Earth+Event tag combo enables rebates (Media Group +3, IC +2, Point Luna card). Without rebates it's marginally worth playing; with rebates it becomes decent. Krazyguy75 argu"
+ },
+ {
+  "name": "Mining Colony",
+  "type": "automated",
+  "cost": 20,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your titanium production 1 step. Place a colony.",
+  "score": 80,
+  "when_to_pick": "Gen 1-3 with good colonies available and ti-production synergies. Best when Titan or Ganymede colony is open. Skip if colonies are full or you have no space engine.",
+  "reasoning": "Colony + ti-prod + Space tag. Per COTD: 'extremely strong starting hand — basically Titanium Mine for 6 MC if going to colony anyway.' Ti-payable. Power play: build Triton first, spend ti immediately "
+ },
+ {
+  "name": "Minority Refuge",
+  "type": "automated",
+  "cost": 5,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your M€ production 2 steps. Place a colony.",
+  "score": 58,
+  "when_to_pick": "Late game for colony placement bonuses when -2 MC-prod is irrelevant. Early game only if securing a critical colony spot.",
+  "reasoning": "Early game it's slightly worse than SP colony due to MC-prod loss. But it's titanium-payable via Space tag and gets better late-game when the -2 MC-prod doesn't matter. Good for grabbing placement bon"
+ },
+ {
+  "name": "Molecular Printing",
+  "type": "automated",
+  "cost": 11,
+  "tags": [
+   "Science"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Gain 1 M€ for each city tile in play. Gain 1 M€ for each colony in play.",
+  "score": 63,
+  "when_to_pick": "Late game when colonies and cities have accumulated. The science tag may enable other plays.",
+  "reasoning": "Player-count and timing dependent. In 3P with colonies, late game could see 8-12 combined cities+colonies. The science tag and 1 VP are always useful. Krazyguy75 rates it balanced to bonkers depending"
+ },
+ {
+  "name": "Nitrogen from Titan",
+  "type": "automated",
+  "cost": 25,
+  "tags": [
+   "Jovian",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Raise your TR 2 steps. Add 2 floaters to a JOVIAN CARD.",
+  "score": 60,
+  "when_to_pick": "Late game with Jovian multipliers and titanium to spend. Low priority without specific synergy.",
+  "reasoning": "A typical 'yet another Jovian' card. In isolation it's mediocre, but with multipliers and ti-discounts it becomes decent. The floaters on a Jovian card can add value (Jovian Lanterns for +1 VP). Krazy"
+ },
+ {
+  "name": "Pioneer Settlement",
+  "type": "automated",
+  "cost": 13,
+  "tags": [
+   "Space"
+  ],
+  "vp": "2",
+  "requirements": "1 colonies",
+  "description": "Requires that you have no more than 1 colony. Decrease your M€ production 2 steps. Place a colony.",
+  "score": 45,
+  "when_to_pick": "Almost never. Late game with 0-1 colonies and titanium to spend. Even then it's marginal.",
+  "reasoning": "The worst colony-placing card. The max 1 colony requirement means it can only be played gen 1-2 early, but losing 2 MC-prod early for VP is terrible economy. benbever calculates ~3.5 MC deficit. Espri"
+ },
+ {
+  "name": "Productive Outpost",
+  "type": "automated",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "text item Gain all your colony bonuses. root",
+  "score": 55,
+  "when_to_pick": "Only with 2+ colonies on valuable locations. Best as a burst card gen 5-7. Skip with 0-1 colonies. No-tag penalty limits ceiling.",
+  "reasoning": "Zero cost makes this always playable. Per COTD community, essentially always worth the 3 MC drafting cost — pays off with 2+ colonies on decent locations. Experienced players note it helps snatch Tyco"
+ },
+ {
+  "name": "Quantum Communications",
+  "type": "automated",
+  "cost": 8,
+  "tags": [],
+  "vp": "1",
+  "requirements": "4 Science tags",
+  "description": "Requires 4 science tags. Increase your M€ production 1 step for each colony in play.",
+  "score": 66,
+  "when_to_pick": "When you have 3+ science tags and good colonies are in play. Draft early if going science, play when 4 tags met.",
+  "reasoning": "Powerful MC production card when colonies are heavily used. 4 Science tag requirement limits it to mid-late game. No tags is a real penalty. In 3P with Luna/Ceres/Pluto, easily gives 6+ MC-prod for ju"
+ },
+ {
+  "name": "Red Spot Observatory",
+  "type": "active",
+  "cost": 17,
+  "tags": [
+   "Jovian",
+   "Science"
+  ],
+  "vp": "2",
+  "requirements": "3 Science tags",
+  "description": "Requires 3 science tags. Draw 2 cards. left",
+  "score": 76,
+  "when_to_pick": "When building science engine with 3+ tags and Jovian synergies. Better with floater support.",
+  "reasoning": "Good package deal for science/Jovian engines. 2 VP + 2 cards + dual premium tags for 20 MC is reasonable. The floater action provides card draw every 2 turns, or every turn with external floater sourc"
+ },
+ {
+  "name": "Research Colony",
+  "type": "automated",
+  "cost": 20,
+  "tags": [
+   "Space",
+   "Science"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place a colony. MAY BE PLACED WHERE YOU ALREADY HAVE A COLONY. Draw 2 cards.",
+  "score": 87,
+  "when_to_pick": "Always draft, always buy. Play ASAP to maximize double colony value. One of the best cards in the entire game.",
+  "reasoning": "One of the strongest cards in the game. Double colony ability is game-breaking. On Luna/Ceres/Pluto, a second colony doubles trade income. benbever, Krazyguy75, and community unanimously call it a top"
+ },
+ {
+  "name": "Rim Freighters",
+  "type": "active",
+  "cost": 4,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "trade item symbol trade_discount item Effect: When you trade, you pay 1 less resource for it. effect root",
+  "score": 72,
+  "when_to_pick": "Early game when colonies are in play and you plan to trade regularly. Cheap, effective, simple.",
+  "reasoning": "Cheap and effective trade cost reduction. Saves 1 energy or titanium per trade, which compounds quickly. benbever values it highly. Space tag at 4 MC is great for Satellites/milestones. Only good when"
+ },
+ {
+  "name": "Refugee Camps",
+  "type": "active",
+  "cost": 10,
+  "tags": [
+   "Earth"
+  ],
+  "vp": "1/resource",
+  "requirements": null,
+  "description": "megacredits item production-box symbol -> resource item Camp Action: Decrease your M€ production 1 step to add a camp resource to this card. effect text item 1 VP for each camp resource on this card. XS root",
+  "score": 64,
+  "when_to_pick": "Mid-game when you have high MC production and 3+ gens remaining. Not worth forcing.",
+  "reasoning": "Decent VP card when played 3-4 gens before game end with excess MC production. FieldMouse007 says 'strong but tricky to use.' Each VP costs 1 MC-prod, which is painful early but fine late. Earth tag i"
+ },
+ {
+  "name": "Solar Probe",
+  "type": "event",
+  "cost": 9,
+  "tags": [
+   "Space",
+   "Science"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Draw 1 card for every 3 science tags you have, including this.",
+  "score": 63,
+  "when_to_pick": "Late game with 5+ science tags and space discounts. Not worth forcing.",
+  "reasoning": "Expensive for card draw unless you have many science tags. icehawk84 says 'event tag really hurts - below 5 tags it is worse than Lagrange Observatory.' Krazyguy75 agrees it is overpriced. At 5+ scien"
+ },
+ {
+  "name": "Solar Reflectors",
+  "type": "automated",
+  "cost": 23,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your heat production 5 steps.",
+  "score": 66,
+  "when_to_pick": "Gen 1 with titanium to pay. Enables temperature rush strategy. Worthless after gen 2-3.",
+  "reasoning": "Best heat production card by MC/prod ratio after Mohole Area per benbever. Gen 1 play enables fast temperature control and ~5 TR over the game. However, 26 MC on heat production is a huge investment t"
+ },
+ {
+  "name": "Sky Docks",
+  "type": "active",
+  "cost": 18,
+  "tags": [
+   "Space",
+   "Earth"
+  ],
+  "vp": "2",
+  "requirements": "2 Earth tags",
+  "description": "Requires 2 Earth tags. Gain 1 Trade Fleet.",
+  "score": 91,
+  "when_to_pick": "Always draft. Play ASAP when 2 Earth tags met. Top 5 card in colony games.",
+  "reasoning": "One of the best cards in the game. benbever writes extensive analysis showing it outvalues Earth Catapult. Extra trade fleet is game-breaking with good colonies. -1 MC discount on ALL cards compounds "
+ },
+ {
+  "name": "Space Port",
+  "type": "automated",
+  "cost": 22,
+  "tags": [
+   "City",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": "1 colonies",
+  "description": "Requires 1 colony. Decrease your energy production 1 step and increase your M€ production 4 steps. Place a city tile. Gain 1 Trade Fleet.",
+  "score": 80,
+  "when_to_pick": "Draft always when colonies are in play. Play when you have a colony and can manage the energy cost.",
+  "reasoning": "Extra trade fleet is incredibly valuable. Worst of the 3 trade fleet cards per COTD but still very strong. City provides board presence and VP potential. 4 MC-prod helps economy. -1 energy is painful "
+ },
+ {
+  "name": "Space Port Colony",
+  "type": "automated",
+  "cost": 27,
+  "tags": [
+   "Space"
+  ],
+  "vp": "1/2 colonies",
+  "requirements": "1 colonies",
+  "description": "Requires a colony. Place a colony. MAY BE PLACED ON A COLONY TILE WHERE YOU ALREADY HAVE A COLONY. Gain 1 Trade Fleet.",
+  "score": 93,
+  "when_to_pick": "Always draft, always play. One of the 3 best cards in the game with colonies.",
+  "reasoning": "Arguably the strongest card in the entire game per Krazyguy75 ('top 3 card'). Double colony + trade fleet is game-breaking value. VP/2 colonies provides 3-5 VP in 3P for free. benbever writes extensiv"
+ },
+ {
+  "name": "Spin-off Department",
+  "type": "active",
+  "cost": 10,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 2 steps.",
+  "score": 86,
+  "when_to_pick": "Always draft early. Play gen 1-2 for maximum draw value. Never pass in draft.",
+  "reasoning": "icehawk84 says 'on par with Mars University.' Subtracting Sponsors' cost (9 MC for 2 MC-prod), the card draw effect costs only ~4 MC. With ~62 cards costing 20+ MC in the full deck, engine players tri"
+ },
+ {
+  "name": "Sub-zero Salt Fish",
+  "type": "active",
+  "cost": 5,
+  "tags": [
+   "Animal"
+  ],
+  "vp": "1/2 resources",
+  "requirements": "-6°C",
+  "description": "Requires -6 C. Decrease any plant production 1 step. left",
+  "score": 52,
+  "when_to_pick": "Late game filler if temperature is somehow ahead. Much worse than Fish/Small Animals in practice.",
+  "reasoning": "SoupsBane notes temperature is usually the lagging parameter, making the -6C requirement very late. icehawk84 confirms it comes online gen 8-9 in competitive play. 1/2 VP per animal is worse than Bird"
+ },
+ {
+  "name": "Titan Air-scrapping",
+  "type": "active",
+  "cost": 21,
+  "tags": [
+   "Jovian"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "titanium item symbol -> resource item Floater Action: Spend 1 titanium to add 2 floaters here. effect symbol OR resource item Floater symbol -> tr item Action: Spend 2 floaters here to increase your TR 1 step. effect roo",
+  "score": 42,
+  "when_to_pick": "Almost never. Only with excess ti-production and nothing better to spend it on. Jovian tag is the main draw. Classic floater trap -- avoid.",
+  "reasoning": "Per COTD: 'by itself horrible — expensive points card needing 2 gens to trigger'. Опытные игроки: без space tag (!) карта с ti requirement — design miss. С floater placement cards ceiling выше, но sta"
+ },
+ {
+  "name": "Titan Floating Launch-pad",
+  "type": "active",
+  "cost": 18,
+  "tags": [
+   "Jovian"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Add two floaters to ANY JOVIAN CARD. left",
+  "score": 66,
+  "when_to_pick": "When you need a trade fleet alternative and/or Jovian tag. Better early when you can use all the free trades.",
+  "reasoning": "Provides 2 free trades, then trades every other gen. benbever values it highly but the 21 MC upfront without ti payment is steep. Krazyguy75 notes trading with energy is ~5 MC, so breakeven is 3 trade"
+ },
+ {
+  "name": "Titan Shuttles",
+  "type": "active",
+  "cost": 23,
+  "tags": [
+   "Jovian",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "symbol symbol -> resource item jovian Floater Action: Add 2 floaters to ANY JOVIAN CARD. effect symbol OR text item resource item Floater symbol -> text item titanium item Action: Spend any number of floaters here to gai",
+  "score": 72,
+  "when_to_pick": "In Jovian strategies with floater synergies. The Jovian tag + Space tag combo helps multipliers and Rim Settler.",
+  "reasoning": "Dual action: add 2 floaters to Jovian card OR spend floaters for titanium. Jovian+Space tags. 1 VP. Versatile — accumulates floaters for VP (Floating Habs) or converts to Ti for expensive Space cards."
+ },
+ {
+  "name": "Trading Colony",
+  "type": "active",
+  "cost": 18,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place a colony.",
+  "score": 78,
+  "when_to_pick": "Almost always in Colonies games. Premium opener when colony lockout or energy-hungry corps make early Luna/Ceres access critical. Ti-payable makes it accessible.",
+  "reasoning": "Combines colony placement (which you'd do anyway) with Trade Envoys effect for only 4 MC more than SP colony. Krazyguy75 says 'the standard project for colonies is already way too cheap, yet this is a"
+ },
+ {
+  "name": "Trade Envoys",
+  "type": "active",
+  "cost": 6,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "trade item symbol text item +1 Effect: When you trade, you may first increase that Colony Tile track 1 step. effect root",
+  "score": 77,
+  "when_to_pick": "When you can trade regularly. Very high priority if you have 2 trade fleets. Even with 1 fleet, excellent value.",
+  "reasoning": "One of the best colony support cards. FieldMouse007 confirms 'strong card, easily generates good value.' SoupsBane calculates ~4 trades to profit. jaminfine calls it 'one of the best economy cards aro"
+ },
+ {
+  "name": "Urban Decomposers",
+  "type": "automated",
+  "cost": 6,
+  "tags": [
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": "1 colonies / 1 city",
+  "description": "Requires that you have 1 city tile and 1 colony in play. Increase your plant production 1 step, and add 2 microbes to ANOTHER card.",
+  "score": 63,
+  "when_to_pick": "When you have a city + colony and a good microbe target. Cheap enough to include in most bio strategies.",
+  "reasoning": "Decent cheap card when requirements are met (usually gen 2-3). benbever says 9 MC for a plant production is 'not bad at all' and the 2 microbes add value. Similar to Archaebacteria but for mid-game. T"
+ },
+ {
+  "name": "Warp Drive",
+  "type": "active",
+  "cost": 14,
+  "tags": [
+   "Science"
+  ],
+  "vp": "2",
+  "requirements": "5 Science tags",
+  "description": "Requires 5 science tags.",
+  "score": 73,
+  "when_to_pick": "When you already have 4+ science tags or a realistic science shell with multiple keepable space cards. Great once live, but don't keep it from the opener if it forces you to chase science from nothing",
+  "reasoning": "Still a powerful snowball payoff once the requirement is live: the latest COTD repeatedly called it busted or engine-defining, but also reinforced that raw opener keeps without science support can los"
+ },
+ {
+  "name": "Aridor",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 40 M€. As your first action, put an additional Colony Tile of your choice into play",
+  "score": 71,
+  "when_to_pick": "Много дешёвых карт с разными тегами в стартовой руке. Лучше с Venus (11-й тег). Не брать если рука дорогая.",
+  "reasoning": "Сильный потенциал MC-prod, но низкий старт делает gen 1-2 болезненными. Per COTD: 'money production ability can be very good with right preludes, 4-6 MC-prod in first 2 gens'. Опытные игроки: colony c"
+ },
+ {
+  "name": "Arklight",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Animal"
+  ],
+  "vp": "1/2 resources",
+  "requirements": null,
+  "description": "You start with 45 M€. Increase your M€ production 2 steps. 1 VP per 2 animals on this card.",
+  "score": 62,
+  "when_to_pick": "Рука с plant/animal картами. На Elysium (Ecologist milestone).",
+  "reasoning": "Приличный стартовый капитал с MC-prod, но способность — только VP, никакой помощи ранней экономике. В 3P WGT с короткими играми 2-3 VP от способности это скромная добавка. По COTD: 'ok but boring'."
+ },
+ {
+  "name": "Polyphemos",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 50 M€. Increase your M€ production 5 steps. Gain 5 titanium.",
+  "score": 40,
+  "when_to_pick": "Почти никогда. Только с alternative card draw И ti-heavy картами.",
+  "reasoning": "По COTD: Krazyguy75 — 'one of the worst corporations in the entire game'. +2 MC per card purchase devastates engine building. shai_aus — 'once you burn through resources, crippling downside'. В 3P WGT"
+ },
+ {
+  "name": "Poseidon",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 45 M€. As your first action, place a colony.",
+  "score": 76,
+  "when_to_pick": "Когда strong colonies in play. Одна из лучших в colony games.",
+  "reasoning": "Free colony + MC-prod от всех colony placements = огромный economic advantage. По COTD: jaminfine — 'one of the absolute best', rekenner — 'devs did not understand Colonies'. No-tag penalty — единстве"
+ },
+ {
+  "name": "Stormcraft Incorporated",
+  "type": "corporation",
+  "cost": 0,
+  "tags": [
+   "Jovian"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "You start with 48 M€.",
+  "score": 54,
+  "when_to_pick": "Хорошие Jovian multipliers и floater targets. Jovian тег — главный аргумент.",
+  "reasoning": "По COTD: icehawk84 — 'mediocre, effect very weak, like 2 heat prod'. Floater-to-heat конвертация плохая. Jovian тег — самая ценная часть. Floater карты обычно слабые."
+ },
+ {
+  "name": "SF Memorial",
+  "type": "automated",
+  "cost": 7,
+  "tags": [
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Draw 1 card.",
+  "score": 63,
+  "when_to_pick": "Late game steel dump for 1 VP. Not worth drafting early unless desperate for building tags.",
+  "reasoning": "Simple, boring card. 10 MC for 1 card + 1 VP is fair but uninspiring. Building tag helps for milestones. Best as a steel dump. shai_aus says 'maybe if desperate.' icehawk84 confirms 'not hugely impact"
+ },
+ {
+  "name": "House Printing",
+  "type": "automated",
+  "cost": 10,
+  "tags": [
+   "Building"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Increase your steel production 1 step.",
+  "score": 56,
+  "when_to_pick": "Gen 1-2 with Building-heavy strategy, Builder pressure, or corps like Factorum/IC that can convert the extra steel quickly. Skip gen 3+ or without Building card targets.",
+  "reasoning": "1 steel-prod + 1 VP for 13 MC. Per COTD community, consensus is 'not great, not terrible' — a basic Mine with VP attached. The VP works against it as a production card (you want production early but p"
+ },
+ {
+  "name": "Space Hotels",
+  "type": "automated",
+  "cost": 12,
+  "tags": [
+   "Space",
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": "2 Earth tags",
+  "description": "Requires 2 Earth tags. Increase M€ production 4 steps.",
+  "score": 78,
+  "when_to_pick": "Gen 1 with 2 Earth tags (or 1 + corp/prelude). Loses value rapidly after gen 2.",
+  "reasoning": "Best MC production card per MC/prod ratio. 3.75 MC per production is exceptional. Space+Earth tags add synergy value. Ti payable reduces effective cost. 2 Earth tag requirement is manageable with corp"
+ },
+ {
+  "name": "Martian Survey",
+  "type": "event",
+  "cost": 9,
+  "tags": [
+   "Science"
+  ],
+  "vp": "1",
+  "requirements": "Max 4% oxygen",
+  "description": "Oxygen must be 4% or lower. Draw two cards.",
+  "score": 62,
+  "when_to_pick": "When you have event/science rebates. Also good for Legend milestone. Don't speculate on it if O2 might spike early.",
+  "reasoning": "Per COTD: 'touch expensive for what it gives unless you have discounts or are Vitor/IC'. 12 MC за 2 cards + 1 VP. Max 4% O2 = early-only window. 'Not a space card — can't use titanium.' Опытные игроки"
+ },
+ {
+  "name": "Research Coordination",
+  "type": "automated",
+  "cost": 4,
+  "tags": [
+   "Wild"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "After being played, when you perform an action, the wild tag counts as any tag of your choice.",
+  "score": 72,
+  "when_to_pick": "Early game when the wild tag can unlock multiple plays throughout the game. Less valuable late.",
+  "reasoning": "The Wild tag is the most versatile tag in the game. 7 MC for essentially any tag you need is strong. shai_aus gives it high praise. Particularly valuable for milestones (Builder, Ecologist, Diversifie"
+ },
+ {
+  "name": "Lava Tube Settlement",
+  "type": "automated",
+  "cost": 15,
+  "tags": [
+   "Building",
+   "City"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Decrease your energy production 1 step and increase your M€ production 2 steps. Place a city tile on a VOLCANIC AREA regardless of adjacent cities.",
+  "score": 50,
+  "when_to_pick": "Only on Hellas with leftover energy and steel, or for a critical Mayor milestone push.",
+  "reasoning": "Overpriced city with terrible placement restrictions. Only 4 legal spots on Tharsis/Elysium, none particularly good for city adjacency VP. The 2 MC-prod vs typical 3 is a significant downgrade. Energy"
+ }
+]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TM Advisor</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <h1 class="popup-title">TM Advisor</h1>
+    <p class="popup-subtitle">Terraforming Mars Card Ratings</p>
+
+    <div class="setting-group">
+      <label class="toggle-label">
+        <input type="checkbox" id="enabled" checked>
+        <span class="toggle-text">Enabled</span>
+      </label>
+    </div>
+
+    <div class="setting-group">
+      <label class="toggle-label">
+        <input type="checkbox" id="showBadges" checked>
+        <span class="toggle-text">Show badges</span>
+      </label>
+    </div>
+
+    <div class="setting-group">
+      <label class="toggle-label">
+        <input type="checkbox" id="showTooltips" checked>
+        <span class="toggle-text">Show tooltips</span>
+      </label>
+    </div>
+
+    <div class="setting-group">
+      <label class="toggle-label">
+        <input type="checkbox" id="dimLowTier" checked>
+        <span class="toggle-text">Dim D/F tier cards</span>
+      </label>
+    </div>
+
+    <div class="setting-group">
+      <label class="select-label">
+        <span>Minimum tier to show</span>
+        <select id="minTierToShow">
+          <option value="F">All (F+)</option>
+          <option value="D">D+</option>
+          <option value="C">C+</option>
+          <option value="B">B+</option>
+          <option value="A">A+</option>
+          <option value="S">S only</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="popup-footer">
+      <span class="version">v0.1.0</span>
+    </div>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

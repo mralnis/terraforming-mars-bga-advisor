@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "source": "Live BGA game inspection, table 866119536, captured 2026-06-10",
+    "modules": "Base + Corporate Era + Prelude + Draft (Colonies deck present in limbo; corps 24-28 in token_types)",
+    "notes": "card_main_{N} numeric = official card numbers (no zero padding in DOM). Preludes are card_prelude_P{NN}. Prelude-box PROJECT cards are card_main_P36..P42. Colonies project cards are card_main_C01..C49. card_colo_{N} are colony TILES (Europa etc), not rateable cards. Corps are card_corp_{N} with BGA-specific numbering that does NOT match tm-advisor R-numbers."
+  },
+  "corps": {
+    "1": "Beginner Corp",
+    "2": "CrediCor",
+    "3": "Ecoline",
+    "4": "Helion",
+    "5": "Interplanetary Cinematics",
+    "6": "Inventrix",
+    "7": "Mining Guild",
+    "8": "Saturn Systems",
+    "9": "PhoboLog",
+    "10": "Teractor",
+    "11": "Tharsis Republic",
+    "12": "ThorGate",
+    "13": "United Nations Mars Initiative",
+    "19": "Point Luna",
+    "20": "Robinson Industries",
+    "21": "Cheung Shing Mars",
+    "22": "Valley Trust",
+    "23": "Vitor",
+    "24": "Aridor",
+    "25": "Arklight",
+    "26": "Polyphemos",
+    "27": "Poseidon",
+    "28": "Stormcraft"
+  },
+  "main_numeric": {
+    "1": "Colonizer Training Camp", "2": "Asteroid Mining Consortium", "3": "Deep Well Heating", "4": "Cloud Seeding", "5": "Search For Life", "6": "Inventors' Guild", "7": "Martian Rails", "8": "Capital", "9": "Asteroid", "10": "Comet",
+    "11": "Big Asteroid", "12": "Water Import From Europa", "13": "Space Elevator", "14": "Development Center", "15": "Equatorial Magnetizer", "16": "Domed Crater", "17": "Noctis City", "18": "Methane From Titan", "19": "Imported Hydrogen", "20": "Research Outpost",
+    "21": "Phobos Space Haven", "22": "Black Polar Dust", "23": "Arctic Algae", "24": "Predators", "25": "Space Station", "26": "Eos Chasma National Park", "27": "Interstellar Colony Ship", "28": "Security Fleet", "29": "Cupola City", "30": "Lunar Beam",
+    "31": "Optimal Aerobraking", "32": "Underground City", "33": "Regolith Eaters", "34": "GHG Producing Bacteria", "35": "Ants", "36": "Release of Inert Gases", "37": "Nitrogen-Rich Asteroid", "38": "Rover Construction", "39": "Deimos Down", "40": "Asteroid Mining",
+    "41": "Food Factory", "42": "Archaebacteria", "43": "Carbonate Processing", "44": "Natural Preserve", "45": "Nuclear Power", "46": "Lightning Harvest", "47": "Algae", "48": "Adapted Lichen", "49": "Tardigrades", "50": "Virus",
+    "51": "Miranda Resort", "52": "Fish", "53": "Lake Marineris", "54": "Small Animals",
+    "56": "Mine",
+    "60": "Trees", "61": "Great Escarpment Consortium", "62": "Mineral Deposit", "63": "Mining Expedition", "64": "Mining Area", "65": "Building Industries", "66": "Land Claim", "67": "Mining Rights", "68": "Sponsors", "69": "Electro Catapult", "70": "Earth Catapult",
+    "71": "Advanced Alloys", "72": "Birds", "73": "Mars University", "74": "Viral Enhancers", "75": "Towing a Comet", "76": "Space Mirrors", "77": "Solar Wind Power", "78": "Ice Asteroid", "79": "Quantum Extractor", "80": "Giant Ice Asteroid",
+    "81": "Ganymede Colony", "82": "Callisto Penal Mines", "83": "Giant Space Mirror", "84": "Trans-Neptune Probe", "85": "Commercial District", "86": "Robotic Workforce", "87": "Grass", "88": "Heather", "89": "Peroxide Power", "90": "Research",
+    "91": "Gene Repair", "92": "Io Mining Industries", "93": "Bushes", "94": "Mass Converter", "95": "Physics Complex", "96": "Greenhouses", "97": "Nuclear Zone", "98": "Tropical Resort", "99": "Toll Station", "100": "Fueled Generators",
+    "101": "Ironworks", "102": "Power Grid", "103": "Steelworks", "104": "Ore Processor", "105": "Earth Office", "106": "Acquired Company", "107": "Media Archives", "108": "Open City", "109": "Media Group", "110": "Business Network",
+    "111": "Business Contacts", "112": "Bribed Committee", "113": "Solar Power", "114": "Breathing Filters", "115": "Artificial Photosynthesis", "116": "Artificial Lake", "117": "Geothermal Power", "118": "Farming", "119": "Dust Seals", "120": "Urbanized Area",
+    "121": "Sabotage", "122": "Moss", "123": "Industrial Center", "124": "Hired Raiders", "125": "Hackers", "126": "GHG Factories", "127": "Subterranean Reservoir", "128": "Ecological Zone", "129": "Zeppelins", "130": "Worms",
+    "131": "Decomposers", "132": "Fusion Power", "133": "Symbiotic Fungus", "134": "Extreme-Cold Fungus", "135": "Advanced Ecosystems", "136": "Great Dam", "137": "Cartel", "138": "Strip Mine", "139": "Wave Power", "140": "Lava Flows",
+    "141": "Power Plant", "142": "Mohole Area", "143": "Large Convoy", "144": "Titanium Mine", "145": "Tectonic Stress Power", "146": "Nitrophilic Moss", "147": "Herbivores", "148": "Insects", "149": "CEO's Favourite Project", "150": "Anti-Gravity Technology",
+    "151": "Investment Loan", "152": "Insulation", "153": "Adaptation Technology", "154": "Caretaker Contract", "155": "Designed Microorganisms", "156": "Standard Technology", "157": "Nitrite Reducing Bacteria", "158": "Industrial Microbes", "159": "Lichen", "160": "Power Supply Consortium",
+    "161": "Convoy From Europa", "170": "Aerobraked Ammonia Asteroid", "171": "Magnetic Field Dome", "172": "Pets", "173": "Protected Habitats", "174": "Protected Valley", "175": "Satellites", "176": "Noctis Farming", "177": "Water Splitting Plant", "178": "Heat Trappers",
+    "179": "Soil Factory", "180": "Fuel Factory", "181": "Ice cap Melting", "182": "Corporate Stronghold", "183": "Biomass Combustors", "184": "Livestock", "185": "Olympus Conference", "186": "Rad-Suits", "187": "Aquifer Pumping", "188": "Flooding",
+    "189": "Energy Saving", "190": "Local Heat Trapping", "191": "Permafrost extraction", "192": "Invention Contest", "193": "Plantation", "194": "Power Infrastructure", "195": "Indentured Workers", "196": "Lagrange Observatory", "197": "Terraforming Ganymede", "198": "Immigration Shuttles",
+    "199": "Restricted Area", "200": "Immigrant City", "201": "Energy Tapping", "202": "Underground Detonations", "203": "Soletta", "204": "Technology Demonstration", "205": "Rad-Chem Factory", "206": "Special Design", "207": "Medical Lab", "208": "AI Central"
+  },
+  "main_prefixed_sample": {
+    "P36": "House Printing", "P37": "Lava Tube Settlement", "P38": "Martian Survey", "P39": "Psychrophiles", "P40": "Research Coordination", "P41": "SF Memorial", "P42": "Space Hotels",
+    "C01": "Airliners", "C02": "Air Raid", "C03": "Atmo Collectors", "C20": "Luna Governor", "C49": "Warp Drive"
+  },
+  "preludes_sample": {
+    "P01": "Allied Bank", "P02": "Aquifer Turbines", "P03": "Biofuels", "P04": "Biolabs", "P05": "Biosphere Support", "P06": "Business Empire", "P07": "Dome Farming", "P08": "Donation",
+    "P09": "Early Settlement", "P10": "Ecology Experts", "P11": "Excentric Sponsor", "P12": "Experimental Forest"
+  },
+  "trackers": {
+    "global": ["tracker_gen", "tracker_o", "tracker_t", "tracker_w"],
+    "perPlayer": ["tracker_m", "tracker_pm", "tracker_s", "tracker_ps", "tracker_u", "tracker_pu", "tracker_p", "tracker_pp", "tracker_e", "tracker_pe", "tracker_h", "tracker_ph", "tracker_tr", "tracker_city", "tracker_forest", "tracker_land", "tracker_tagBuilding", "tracker_tagSpace", "tracker_tagScience", "tracker_tagEnergy", "tracker_tagEarth", "tracker_tagJovian", "tracker_tagCity", "tracker_tagPlant", "tracker_tagMicrobe", "tracker_tagAnimal", "tracker_tagWild", "tracker_tagEvent"],
+    "valueAttr": "data-state"
+  },
+  "gamestates": ["gameSetup", "multiplayerDispatch", "multiplayerChoice", "gameDispatch", "playerTurnChoice", "playerConfirm", "gameEnd"]
+}

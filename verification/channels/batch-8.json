@@ -1,0 +1,586 @@
+[
+ {
+  "name": "GHG Shipment",
+  "type": "event",
+  "cost": 3,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": "Kelvinists ruling",
+  "description": "Requires that Kelvinists are in power or that you have 2 delegates there. Increase your heat production 1 step. Gain 1 heat for each floater you have.",
+  "score": 50,
+  "when_to_pick": "Only if Kelvinists are ruling, you have 10+ floaters, and need heat. Extremely niche.",
+  "reasoning": "Highly conditional card with low payoff. Kelvinists ruling requirement adds major friction. 1 heat production for 6 MC is bad value (4 MC return gen1). The floater-to-heat conversion is only good if y"
+ },
+ {
+  "name": "Sponsoring Nation",
+  "type": "automated",
+  "cost": 21,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": "4 Earth tags",
+  "description": "Requires 4 Earth tags. Gain 3 TR. Place 2 delegates.",
+  "score": 71,
+  "when_to_pick": "Mid-game (gen 3-5) when you have 3+ Earth tags and Turmoil is active. Top priority for Earth engine players. Skip without Turmoil or insufficient Earth tags.",
+  "reasoning": "3 TR + 2 delegates in 1 party for 24 MC. Per COTD: 2 delegates is the standout — flip party leader, meet ruling party requirements, set up chairman grabs. Green card keeps Earth tag permanently. 4 Ear"
+ },
+ {
+  "name": "Colonial Representation",
+  "type": "active",
+  "cost": 10,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 3 M€ per colony you have.",
+  "score": 72,
+  "when_to_pick": "Gen 2-4 with 2+ colonies in Turmoil games. The earlier the permanent influence, the more value. Skip without Turmoil. Best with colony-heavy corps like Poseidon.",
+  "reasoning": "Permanent +1 influence — один из самых сильных ongoing-эффектов в Turmoil. Influence не только защищает от штрафов, но и усиливает бонусы ruling party, даёт больше от позитивных global events, и увели"
+ },
+ {
+  "name": "Envoys From Venus",
+  "type": "event",
+  "cost": 1,
+  "tags": [
+   "Venus"
+  ],
+  "vp": null,
+  "requirements": "3 Venus tags",
+  "description": "Requires 3 Venus tags. Place 2 delegates in 1 party.",
+  "score": 66,
+  "when_to_pick": "Mid-late game with 3+ Venus tags. Very efficient but highly conditional.",
+  "reasoning": "Extremely cost-efficient if you meet the requirement — 4 MC for 2 delegates is great value. The 3 Venus tag requirement is the real gate. In a Venus-heavy engine with Morning Star Inc this is easy to "
+ },
+ {
+  "name": "Colonial Envoys",
+  "type": "event",
+  "cost": 4,
+  "tags": [],
+  "vp": null,
+  "requirements": "Unity ruling",
+  "description": "Requires that Unity is ruling or that you have 2 delegates there. Place 1 delegate for each colony you have. YOU MAY PLACE THEM IN SEPERATE PARTIES.",
+  "score": 45,
+  "when_to_pick": "Only with 3+ colonies and Unity is ruling or about to rule. Very low priority.",
+  "reasoning": "Triple restriction: needs Unity ruling, colonies expansion, and turmoil expansion, plus you need multiple colonies built. No tags. Even when playable, placing 2-3 delegates is a minor effect worth may"
+ },
+ {
+  "name": "Special Permit",
+  "type": "event",
+  "cost": 5,
+  "tags": [
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": "Greens ruling",
+  "description": "Requires that Greens are ruling or that you have 2 delegates there. Steal 4 plants from any player.",
+  "score": 56,
+  "when_to_pick": "Only when Greens are ruling and you can immediately use the stolen plants. Niche.",
+  "reasoning": "Take-that plant steal in 3P. Greens req adds timing difficulty. Per COTD: 'table flipping card' — devastating gen 1 against plant-heavy starts. Need to go before plant player AND have 2 Greens delegat"
+ },
+ {
+  "name": "Floating Refinery",
+  "type": "active",
+  "cost": 7,
+  "tags": [
+   "Venus"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Add 1 floater here for each Venus tag you have.",
+  "score": 61,
+  "when_to_pick": "When running Venus floater strategy with 2+ Venus tags and floater payoff targets. Skip without Floating Habs or Dirigibles. Venus tag is floor value.",
+  "reasoning": "Cheap Venus floater generator scaling with Venus tag count. Per COTD: 'Prelude 2 tried to make Venus viable, somewhat successful.' Only from YOUR cards. Needs Venus engine already running — pure suppo"
+ },
+ {
+  "name": "Frontier Town",
+  "type": "automated",
+  "cost": 11,
+  "tags": [
+   "City",
+   "Building"
+  ],
+  "vp": null,
+  "requirements": "Mars First ruling",
+  "description": "Requires that Mars First is ruling or that you have 2 delegates there. Decrease your energy production one step. Place a city tile. GAIN THE PRINTED PLACEMENT BONUS 2 ADDITIONAL TIMES.",
+  "score": 65,
+  "when_to_pick": "Gen 1-3 with a strong printed placement bonus spot available. Check map before drafting.",
+  "reasoning": "Incredible ceiling depending on map spot. Per benbever's exhaustive analysis, some maps have crazy spots — Elysium 9 plants (instant greenery), Terra Cimmeria 3 colonies for 15 MC, Vastitas 3 temperat"
+ },
+ {
+  "name": "Jovian Envoys",
+  "type": "event",
+  "cost": 2,
+  "tags": [],
+  "vp": null,
+  "requirements": "2 Jovian tags",
+  "description": "Requires 2 Jovian tags. Place 2 delegates in 1 party.",
+  "score": 63,
+  "when_to_pick": "When playing Jovians in Turmoil games and need delegate placement. Otherwise not worth drafting.",
+  "reasoning": "2 delegates for 5 MC (vs 10 MC standard). 2 Jovian tag requirement. Per COTD: 'pretty good if playing Jovians — 5 MC in the pocket.' Can secure Chairman cheaply. Not draft priority but nice when playa"
+ },
+ {
+  "name": "Microgravity Nutrition",
+  "type": "automated",
+  "cost": 11,
+  "tags": [
+   "Microbe",
+   "Plant"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Increase your M€ production 1 step for each colony you have.",
+  "score": 50,
+  "when_to_pick": "Only with 3+ colonies already placed early game. The double bio-tag is the main appeal for specific milestones.",
+  "reasoning": "Requires multiple colonies early to be worthwhile, which is uncommon in 3P. The Microbe+Plant double bio-tag is decent for milestones but the effect is weak. FieldMouse007 calls it mediocre. At 2 colo"
+ },
+ {
+  "name": "Soil Studies",
+  "type": "event",
+  "cost": 13,
+  "tags": [
+   "Microbe",
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": "Max -4°C",
+  "description": "Requires that temperature is -4 C or lower. Gain 1 plant per Venus tag, plant tag, and colony you have.",
+  "score": 72,
+  "when_to_pick": "Gen 2-4 with 4+ Venus/Plant/Colony tags for cheap greenery. Microbe+Plant tags are the floor value. Skip with fewer than 3 qualifying tags.",
+  "reasoning": "Scaling event: Venus+Plant+Colony tags = plants. Microbe+Plant dual tag. Per COTD: 'pretty strong, combos with unrelated stuff.' Aim 8+ plants = greenery. Need 6-7 plants for break-even. Doesn't chang"
+ },
+ {
+  "name": "Stratospheric Expedition",
+  "type": "event",
+  "cost": 12,
+  "tags": [
+   "Venus",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": null,
+  "description": "Add two floaters to ANY CARD. Draw 2 Venus cards.",
+  "score": 74,
+  "when_to_pick": "When running Venus strategy or need Venus cards. Ti-payable makes it accessible. Best gen 2-5 for maximum Venus card utilization.",
+  "reasoning": "Triple tag + 2 floaters + 2 free Venus cards + 1 VP for 15 MC. Per COTD: ~19 MC value for 15 MC cost. Floaters go to ANY card. Compared to Tech Demo: +7 MC for 1 VP + 2 floaters. Strong in late Venus "
+ },
+ {
+  "name": "Unexpected Application",
+  "type": "event",
+  "cost": 4,
+  "tags": [
+   "Venus"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Discard 1 card to terraform Venus 1 step.",
+  "score": 55,
+  "when_to_pick": "When you need to push Venus for requirements or Venuphile. Cheap enough to be fine filler.",
+  "reasoning": "No COTD data available. Simple analysis: discard a card + 7 MC for 1 Venus TR is roughly equivalent to standard project asteroid in efficiency but for Venus. The Venus tag helps Venuphile. Cheap event"
+ },
+ {
+  "name": "Venus Allies",
+  "type": "automated",
+  "cost": 30,
+  "tags": [
+   "Venus",
+   "Space"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "Raise Venus 2 steps. Gain 4 M€ per colony you have.",
+  "score": 67,
+  "when_to_pick": "Late game with 2+ colonies and ti to pay. Better in Venus-heavy games. Skip without colonies.",
+  "reasoning": "No key commenter COTD data. With 2+ colonies it's a reasonable VP card. Ti-payable with Space tag helps. The 2 Venus TR raises the track which can help Venus requirements. At 3 colonies, 21 MC for 4 V"
+ },
+ {
+  "name": "Venus Orbital Survey",
+  "type": "active",
+  "cost": 18,
+  "tags": [
+   "Venus",
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "symbol symbol -> symbol effect text item Action: Reveal the top 2 cards, take any venus cards to hand for free. Any other card you either buy or discard root",
+  "score": 82,
+  "when_to_pick": "When running Venus strategy or Aphrodite/Morning Star. Gen 1-3 for maximum value. Ti-payable makes it accessible for space engine players even without Venus focus.",
+  "reasoning": "Free Venus cards every gen. No requirements, ti-payable. Per COTD: 'fantastic — weaker than AI Central (pay for cards, revealed) but no req, ti-payable, cheaper.' Experienced players call it 'top-tier"
+ },
+ {
+  "name": "Venus Shuttles",
+  "type": "active",
+  "cost": 9,
+  "tags": [
+   "Venus"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Add 2 floaters to ANY VENUS CARD.",
+  "score": 63,
+  "when_to_pick": "When running Venus floater strategy with Dirigibles or Floating Habs. Skip without strong floater payoffs. Venus tag is the floor value.",
+  "reasoning": "Floater generation action for Venus engines. 2 floaters per gen is decent but slow -- need a strong Venus floater target (Dirigibles, Stratospheric Birds, Floating Habs) to convert floaters into VP or"
+ },
+ {
+  "name": "Venus Trade Hub",
+  "type": "active",
+  "cost": 12,
+  "tags": [
+   "Venus",
+   "Space"
+  ],
+  "vp": "1",
+  "requirements": "2 Venus tags",
+  "description": "Requires 2 Venus tags.",
+  "score": 67,
+  "when_to_pick": "When playing Venus + Colonies combo and have 2+ Venus tags. Ti-payable makes it accessible.",
+  "reasoning": "No COTD data available. Based on cost structure: 15 MC ti-payable for 1 VP + effect + Venus+Space tags. The 2 Venus tag requirement limits use. With Colonies compatibility, likely a trade-enhancing ef"
+ },
+ {
+  "name": "WG Project",
+  "type": "automated",
+  "cost": 9,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": "Chairman",
+  "description": "Requires that you are Chairman. DRAW 3 PRELUDE CARDS AND PLAY 1 OF THEM, Discard the other 2.",
+  "score": 75,
+  "when_to_pick": "When you are or can become Chairman. Gen 2-4 for maximum prelude value. Earth tag bonus. Fun and powerful.",
+  "reasoning": "Play a prelude mid-game for 12 MC is strong. benbever details the math: best-of-3 makes it much less risky than Board of Directors. SoupsBane says 'probably too cheap for its effect.' Some preludes (L"
+ },
+ {
+  "name": "Applied Science",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Wild"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Add 6 science resources here.",
+  "score": 55,
+  "when_to_pick": "Хорош с Viron или Physics Complex. Без них — ситуативен: plant-prod mode сильнее в gen 1-2, ti mode для дампа. Wild tag + Excentric добавляют value.",
+  "reasoning": "No immediate production — action engine only. Per COTD: 'Physics Complex's best friend.' With Mass Converter + Physics Complex becomes compelling. Viron doubles speed. 'Don't take unless you have Phys"
+ },
+ {
+  "name": "Atmospheric Enhancers",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Venus"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise temperature 2 steps, or raise oxygen 2 steps, or raise Venus 2 steps. Draw 2 cards with floater icons.",
+  "score": 78,
+  "when_to_pick": "When you have Venus cards in hand or want flexible TR. Great with Morning Star Inc. Good even without Venus synergy since you can raise temp/O2.",
+  "reasoning": "2 TR with parameter choice + 2 floater-icon cards. Per COTD: 'shines with Stratospheric Birds — combined with Venus L1 Shade can get Birds gen 1.' Choose Venus to unlock strong cards, or oxygen/temp f"
+ },
+ {
+  "name": "Board of Directors",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Add 4 director resources here.",
+  "score": 55,
+  "when_to_pick": "Когда вам нужен card draw pipeline и Earth тег. Лучше с Point Luna. Не приоритетная — immediate value слишком мала для прелюдии.",
+  "reasoning": "Card filtering action — 4 directors дают 4 uses за игру. Каждое use: look at 5, buy up to 2 for 3 MC. Это дешевле стандартных 3 MC/card, но не бесплатно — нужно 3 MC per card. При 1 good card per look"
+ },
+ {
+  "name": "Colony Trade Hub",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your energy production 1 step. Gain 2 titanium",
+  "score": 66,
+  "when_to_pick": "Only in 4-5 player games with aggressive colony placement. In 3P, almost never reaches average value.",
+  "reasoning": "Very weak base value (~13 MC). The colony bonus is too slow — need 6+ colonies to reach average prelude value, which rarely happens in 8-9 gen game. Space tag is minor. COTD (benbever): 'only worth ~1"
+ },
+ {
+  "name": "Corridors of Power",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "party_leaders item symbol cards item Effect: Each time you become party leader, draw 1 card. effect tr item megacredits item text item Raise your TR 1 step and gain 4 M€ root",
+  "score": 74,
+  "when_to_pick": "When playing Turmoil-focused strategy or Septum Tribus. Less reliable in competitive 3P lobbying.",
+  "reasoning": "1 TR + 4 MC + card draw engine via party leader. Per COTD: 'strong prelude, A rated.' Very strong in 2P (card almost every gen), much worse in 4-5P. In 3P moderate — party leader competition is real. "
+ },
+ {
+  "name": "Early Colonization",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place a colony. Gain 3 energy.",
+  "score": 77,
+  "when_to_pick": "When strong colonies are in play and you have (or can get) 3 energy-prod for future trading. Top colony prelude.",
+  "reasoning": "Colony + 3 energy-prod + colony tracks 2 steps forward. Per COTD: track advancement is the hidden power. Securing best colony early is huge. Trading gen 1 isn't great alone, but colony lock-in matters"
+ },
+ {
+  "name": "Floating Trade Hub",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "symbol symbol -> resource item Floater symbol Action: Add 2 floaters to ANY card. effect text item resource item Floater symbol -> text item wild item Action: Remove any number of floaters here to gain that many of one s",
+  "score": 50,
+  "when_to_pick": "When you have floater synergies and other immediate-value preludes covering your gen 1 needs. Alone = weak.",
+  "reasoning": "Slow engine card on a prelude. 2 floaters/action is decent but converting to ti is only ~3 MC/gen. No immediate value — zero MC, zero production gen 1. Space tag is minor. Better with other floater ca"
+ },
+ {
+  "name": "Focused Organization",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "cards item wild item symbol -> cards item wild item Action: Discard 1 card and spend 1 standard resource to draw 1 card and gain 1 standard resource. effect cards item wild item text item Draw 1 card and gain 1 standard ",
+  "score": 62,
+  "when_to_pick": "Когда нужен resource conversion или card filtering и другие прелюдии хуже. Не приоритетный pick — immediate value слишком мала.",
+  "reasoning": "Low immediate value (~6 MC) but cycling action is deceptively strong. Per COTD: pay-1-draw-1 equals Mars University trigger value. Resource conversion (steel/titanium) adds flexibility. ~13 MC total v"
+ },
+ {
+  "name": "High Circles",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "tr item cards item symbol delegates item text item Raise your TR 1 step and draw 1 card with PARTY REQUIREMENT. Place 2 delegates in one party. symbol symbol influence item Effect: You have +1 influence. effect root",
+  "score": 85,
+  "when_to_pick": "Всегда берите в Turmoil-играх. Permanent +1 influence масштабируется экспоненциально. Особенно сильна с Septem Tribus (больше delegates = больше parties = больше MC/action).",
+  "reasoning": "Top Turmoil prelude. Permanent +1 influence scales all game. 2 delegates in 1 party = immediate political control. Per COTD: drawn party req card is usually strong (18 such cards). ~23 MC quantified v"
+ },
+ {
+  "name": "Industrial Complex",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Building"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Lose 18 M€. INCREASE ALL YOUR PRODUCTIONS THAT ARE LOWER THAN 1, TO 1.",
+  "score": 58,
+  "when_to_pick": "Only with corps that start at 0 production across the board. Never with Ecoline, Mining Guild, Helion, etc.",
+  "reasoning": "High ceiling but very corp-dependent. With corps that start at all zeros (Credicor, Point Luna), you get massive value. With corps that already have production (Mining Guild, Ecoline), it's terrible —"
+ },
+ {
+  "name": "Main Belt Asteroids",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": "1/2 resources",
+  "requirements": null,
+  "description": "Lose 5 M€. 1 VP per 2 asteroids here.",
+  "score": 57,
+  "when_to_pick": "When you have asteroid synergies (Astrodrill). Without synergy, it's below average.",
+  "reasoning": "Slow but steady value. The -5 MC hurts gen 1. Self-contained it's about 1 ti-prod + 0.5 VP/gen which is decent but not exciting. Better with Astrodrill or other asteroid cards. Space tag is minor. COT"
+ },
+ {
+  "name": "Nobel Prize",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Wild"
+  ],
+  "vp": "2",
+  "requirements": null,
+  "description": "Gain 5 M€. Draw 2 cards with requirements.",
+  "score": 45,
+  "when_to_pick": "Almost never. Production preludes are strictly better for gen 1. Only if other options are terrible.",
+  "reasoning": "Looks decent on paper but 2 VP on a prelude is terrible — VP does nothing to build your engine early. 5 MC is minimal. The 2 requirement cards are a gamble (might not hit what you need). COTD (icehawk"
+ },
+ {
+  "name": "Old Mining Colony",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your titanium production 1 step. Place 1 colony. Discard 1 card.",
+  "score": 60,
+  "when_to_pick": "When colonies are good and you have a junk card to discard. Early Colonization is generally better.",
+  "reasoning": "About average value. Colony placement is nice but discarding a card hurts. 1 ti-prod is decent. Space tag is minor. COTD (benbever): 'it is ok, ~23 in quantified value'. Worse than Early Colonization "
+ },
+ {
+  "name": "Planetary Alliance",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth",
+   "Jovian",
+   "Venus"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise your TR 2 steps. Draw 1 Jovian card and 1 Venus card.",
+  "score": 82,
+  "when_to_pick": "Почти всегда сильна при игре с Venus. Особенно ценна с Saturn Systems (Jovian тег + Jovian карта) и Point Luna (Earth тег). 3 тега для Diversifier milestone.",
+  "reasoning": "3 tags (Earth+Jovian+Venus) + 2 TR + Jovian/Venus cards. Per COTD: compared to UNMI Contractor — 1 TR less but 2 more tags. High ceiling with Aridor, Saturn Systems, Point Luna, Planetologist mileston"
+ },
+ {
+  "name": "Preservation Program",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise your TR 5 steps.",
+  "score": 48,
+  "when_to_pick": "При pure TR rush, когда 5 TR ставят вас close к Terraformer milestone. Сочетается с Terraforming Deal (+10 MC from effect). Без rush стратегии — engine building прелюдии лучше.",
+  "reasoning": "5 TR prelude that sounds impressive but math is ambiguous. Per COTD community, 'terrible — just 5 MC production until end of game.' Interesting combo with Double Down (5 TR free since effect isn't cop"
+ },
+ {
+  "name": "Project Eden",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "City",
+   "Plant"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Place 1 ocean tile, 1 city tile, and 1 greenery tile. Discard 3 cards.",
+  "score": 90,
+  "when_to_pick": "Always. This is the strongest standard prelude. Pick it every time you see it.",
+  "reasoning": "Arguably the most broken prelude in the game. 3 tile placements in gen 1 is insane tempo — ocean + city + greenery gives 2 TR + VP + placement bonuses + adjacency potential. Discarding 3 cards is a sm"
+ },
+ {
+  "name": "Recession",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "EACH OPPONENT loses 5 M€ and decreases their M€ production 1 step. You gain 10 M€.",
+  "score": 66,
+  "when_to_pick": "При aggressive rush где вы хотите замедлить оппонентов. Лучше в 3P (2 жертвы) чем в 2P. Не берите если нужен engine — 10 MC не строит ничего.",
+  "reasoning": "10 MC immediate is below avg. Per COTD: much more devastating than paper value — tight gen 1 plans get wrecked by -5 MC + -1 prod. Double Down combo is brutal. Mons Insurance backfires. Hate-card with"
+ },
+ {
+  "name": "Rise To Power",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [],
+  "vp": null,
+  "requirements": null,
+  "description": "Increase your M€ production 3 steps and place 3 delegates. YOU MAY PLACE THEM IN SEPARATE PARTIES.",
+  "score": 66,
+  "when_to_pick": "When Turmoil matters to your strategy and you want early political control. Less impactful in non-political strategies.",
+  "reasoning": "3 delegates in 3 parties + 3 MC-prod. Per COTD: 'delegate placement is really strong — grab party leader in 3 parties before anyone, making chairman control much easier.' Good all-purpose prelude, not"
+ },
+ {
+  "name": "Soil Bacteria",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Microbe"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Draw 2 microbe cards and gain 3 plants.",
+  "score": 65,
+  "when_to_pick": "При microbe-стратегии или когда нужен pipeline для VP через microbe engine. Особенно с Splice или EcoTec. 3 plants помогают ground game. Не брать если microbe engine не планируется.",
+  "reasoning": "~16 MC value (plants + cards + tag). 2 microbe cards from deck = guaranteed engine access. Per COTD: strong with Ecoline/Ecotec for plant blitz; deck-thinning of 50+ cards denies opponents. Microbe ta"
+ },
+ {
+  "name": "Space Lanes",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Gain 3 titanium.",
+  "score": 73,
+  "when_to_pick": "В играх с хорошими колониями, где вы планируете активно торговать. 3 ti gen 1 + ongoing trade bonus = solid combo. Без Colonies — слабая.",
+  "reasoning": "Colony-oriented прелюдия с decent base. 3 ti gen 1 помогают с space-картами. Ongoing effect +2 MC per trade — стабильный income в colony games. В 3P с 5-8 trades за игру это ~10-16 MC дополнительного "
+ },
+ {
+  "name": "Terraforming Deal",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "tr item symbol megacredits item Effect: Each step your TR is raised, you gain 2 M€. effect root",
+  "score": 62,
+  "when_to_pick": "При TR rush стратегии, где вы поднимаете 3-5 TR за gen. Сочетается с UNMI. Не берите если ваша стратегия — engine building с поздним terraforming.",
+  "reasoning": "Ongoing effect с потенциально высоким total value, но нулевым immediate impact gen 1. 2 MC per TR raise звучит хорошо, но в gen 1 вы получаете 0 MC, 0 production, 0 ресурсов — только Earth тег. Effect"
+ },
+ {
+  "name": "Venus Contract",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Venus"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Draw 1 Venus card. Raise your TR 1 step.",
+  "score": 46,
+  "when_to_pick": "Только при активной Venus-стратегии и отсутствии лучших альтернатив. Слабый immediate value. Morning Star Inc. + Venus L1 Shade дают больше.",
+  "reasoning": "Одна из слабейших прелюдий. 1 TR + 1 Venus card + Venus тег — скромный базовый пакет (~13 MC). Ongoing effect +1 MC per Venus tag played звучит как Saturn Systems для Venus, но Venus тегов в колоде зн"
+ },
+ {
+  "name": "Venus L1 Shade",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Space"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise Venus 3 steps.",
+  "score": 60,
+  "when_to_pick": "When you have Venus strategy cards or Morning Star Inc. Without Venus synergy, Huge Asteroid or Great Aquifer are strictly better.",
+  "reasoning": "3 Venus steps is solid TR (3 TR = 21 MC at 7 MC/TR) plus it unlocks Venus requirements (8%, 12%, 16% Venus). Space tag is minor. The issue: Venus TR is less impactful because the Venus track does not "
+ },
+ {
+  "name": "World Government Advisor",
+  "type": "prelude",
+  "cost": 0,
+  "tags": [
+   "Earth"
+  ],
+  "vp": null,
+  "requirements": null,
+  "description": "Raise your TR 2 steps. Draw 1 card.",
+  "score": 70,
+  "when_to_pick": "When you are committed to rushing and want to shorten the game. Dangerous if your opponents are also rushing or if you need engine time.",
+  "reasoning": "Extremely powerful rush prelude with game-warping action. Using the action every gen accelerates game end by 1-2 gens, which benefits the player if they are ahead in TR. The 2 TR + card + Earth tag ba"
+ }
+]
