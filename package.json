@@ -1,6 +1,6 @@
 {
   "name": "bga-tm-advisor",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Terraforming Mars card advisor for BoardGameArena",
   "private": true,
   "scripts": {

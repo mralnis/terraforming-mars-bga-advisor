@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "BGA Terraforming Mars Advisor",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Card ratings and context-aware scoring for Terraforming Mars on BoardGameArena",
   "minimum_chrome_version": "111",
   "permissions": ["storage"],
@@ -25,7 +25,8 @@
       ],
       "js": ["content/page-bridge.js"],
       "run_at": "document_idle",
-      "world": "MAIN"
+      "world": "MAIN",
+      "all_frames": true
     },
     {
       "matches": [
@@ -34,7 +35,8 @@
       ],
       "js": ["content/main.js"],
       "css": ["styles/overlay.css"],
-      "run_at": "document_idle"
+      "run_at": "document_idle",
+      "all_frames": true
     }
   ],
   "icons": {
